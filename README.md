@@ -8,7 +8,7 @@ For the purpose of the above project, I downloaded a Covid-19 dataset from the b
 
 After downloading SQL Server and SQL Management Studio into the system, I extracted data from the Covid 19 dataset as a table in SQL Management Studio and then used it to gather the insights using the queries given in the below SQL file:
 
-<a href = "Covid19.sql"> Covid19.sql </a>
+<a href = "Project 1/Covid19.sql"> Covid19.sql </a>
 
 ## Project 2 (Tableau)
 
@@ -31,7 +31,7 @@ For the purpose of this project, I downloaded a Nashville Housing dataset from t
 
 Just like in Project 1, imported the data into Microsoft SQL Server Management Studio. I then cleaned the data using the queries in the below SQL file:
 
-<a href = "Nashville Housing.sql"> Nashville Housing.sql </a>
+<a href = "Project 3/Nashville Housing.sql"> Nashville Housing.sql </a>
 
 ## Project 4 (Python)
 
@@ -41,4 +41,4 @@ For the purpose of this project, I downloaded a Movies dataset from Kaggle from 
 
 and after downloading Anaconda Navigator and launching Jupyter Notebooks, I cleaned and analyzed the data using Python. The code is available in the below file:
 
-<a href = "Movies.ipynb"> Movies.ipynb </a>
+<a href = "Project 4/Movies.ipynb"> Movies.ipynb </a>
