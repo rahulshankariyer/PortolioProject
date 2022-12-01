@@ -25,12 +25,20 @@ Using the above, I created a Tableau Dashboard, which can be found in the link b
 
 ## Project 3 (SQL Data Cleaning)
 
-For the purpose of this project, I downloaded a Nashville Housing dataset from the the github of "Alex the Analyst" and just like in Project 1, imported the data into Microsoft SQL Server Management Studio. I then cleaned the data using the queries in the below SQL file:
+For the purpose of this project, I downloaded a Nashville Housing dataset from the below github repository:
+
+<a href = "https://github.com/AlexTheAnalyst/PortfolioProjects"> Nashville Housing Dataset </a>
+
+Just like in Project 1, imported the data into Microsoft SQL Server Management Studio. I then cleaned the data using the queries in the below SQL file:
 
 <a href = "Nashville Housing.sql"> Nashville Housing.sql </a>
 
 ## Project 4 (Python)
 
-For the purpose of this project, I downloaded a Movies dataset from Kaggle and after downloading Anaconda Navigator and launching Jupyter Notebooks, I cleaned and analyzed the data using Python. The code is available in the below file:
+For the purpose of this project, I downloaded a Movies dataset from Kaggle from the below link:
+
+<a href = "https://www.kaggle.com/datasets/danielgrijalvas/movies"> Movies dataset </a>
+
+and after downloading Anaconda Navigator and launching Jupyter Notebooks, I cleaned and analyzed the data using Python. The code is available in the below file:
 
 <a href = "Movies.ipynb"> Movies.ipynb </a>
