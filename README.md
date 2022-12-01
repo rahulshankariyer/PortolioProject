@@ -6,7 +6,20 @@ For the purpose of the above project, I downloaded a Covid-19 dataset from the b
 
 <a href = "https://ourworldindata.org/covid-deaths"> Our World in Data </a>
 
-After downloading SQL Server and SQL Management Studio into the system, I extracted data from the Covid 19 dataset as a table in SQL Management Studio and then used it to gather the insights using the queries given in the below SQL file:
+After downloading SQL Server and SQL Management Studio into the system, I extracted data from the Covid 19 dataset as a table in SQL Management Studio and then used it to gather the following insights using the queries given in the below SQL file:
+
+1. Death % among covid cases each day - all countries
+2. Death % among covid cases each day - USA
+3. Death % among covid cases each day - India
+4. Covid case % among population each day - USA
+5. Covid case % among population each day - India
+6. Highest % of covid cases among the population in each country in a single day
+7. Percentage of covid cases among the population of each country each day in descending order
+8. Total death count of each country
+9. Total death count of each continent
+10. Total covid cases, deaths and death % across the world each day
+11. Total covid cases, deaths and death % across the world overall
+12. Population vs Vaccinations
 
 <a href = "Project 1/Covid19.sql"> Covid19.sql </a>
 
@@ -29,7 +42,15 @@ For the purpose of this project, I downloaded a Nashville Housing dataset from t
 
 <a href = "https://github.com/AlexTheAnalyst/PortfolioProjects"> Nashville Housing Dataset </a>
 
-Just like in Project 1, imported the data into Microsoft SQL Server Management Studio. I then cleaned the data using the queries in the below SQL file:
+Just like in Project 1, imported the data into Microsoft SQL Server Management Studio. I then performed data cleaning using the following steps as shown in the queries in the below SQL file:
+
+1. Converting SaleDate field to the datatype 'date'
+2. Populating the Property Address data by using self join and removing the nulls
+3. Splitting PropertyAddress field into Address and City fields
+4. Splitting OwnerAddress field into OwnerSplitAddress, OwnerSplitCity & OwnerSplitState fields
+5. Changing SoldAsVacant field values from 'Y' to 'Yes' and from 'N' to 'No'
+6. Removing duplicate rows
+7. Removing unused columns
 
 <a href = "Project 3/Nashville Housing.sql"> Nashville Housing.sql </a>
 
