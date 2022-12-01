@@ -6,7 +6,7 @@ For the purpose of the above project, I downloaded a Covid-19 dataset from the b
 
 <a href = "https://ourworldindata.org/covid-deaths"> Our World in Data </a>
 
-After downloading SQL Server and SQL Management Studio into the system, I extracted data from the Covid 19 dataset as a table in SQL Management Studio and then used it to gather the following insights using the queries given in the below SQL file:
+After downloading SQL Server and SQL Management Studio into the system, I extracted data from the Covid 19 dataset as a table in SQL Management Studio and then used it to extract the following data using the queries given in the below SQL file:
 
 1. Death % among covid cases each day - all countries
 2. Death % among covid cases each day - USA
