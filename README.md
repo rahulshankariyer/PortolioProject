@@ -1,5 +1,11 @@
 # Data Analysis Portolio Projects
 
+##Table of Contents
+
+1. Covid Case & Death % - USA vs World
+2. Covid Testing % - USA vs World
+3. Covid Vaccination vs Cases & Deaths
+
 ## Project 1 (SQL)
 
 For the purpose of the above project, I downloaded a Covid-19 dataset from the below website:
