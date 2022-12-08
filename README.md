@@ -10,11 +10,11 @@
 
 ### Project Objective
 
-In this project, I analyzed how USA has done in terms of controlling Covid Cases as well as Covid Deaths with respect to the World in general. For this purpose, I downloaded a Covid-19 dataset from the website <a href = "https://ourworldindata.org/covid-deaths"> Our World in Data </a>
+In this project, I analyzed how USA has done in terms of controlling Covid Cases as well as Covid Deaths with respect to the World. For this purpose, I downloaded a Covid-19 dataset from the website <a href = "https://ourworldindata.org/covid-deaths"> Our World in Data </a>
 
 ### Data Used
 
-The Covid-19 data that I had downloaded contained various data on Covid Cases, Deaths, Testing and Vaccinations from January 1st, 2020 to November 21st, 2022. So I split the data into two tables in Excel - one containing the data on Cases & Deaths and another containing data on the Testing & Vaccinations.
+The Covid-19 data that I had downloaded contained various data on Covid Cases, Deaths, Testing and Vaccinations from January 1st, 2020 to November 21st, 2022. So I split the data into two Excel sheets - one containing the data on Cases & Deaths and another containing data on the Testing & Vaccinations.
 
 ### Analysis
 
@@ -39,9 +39,48 @@ The fact that 29.07% of the US population has contracted the virus while only 1.
 
 ## 2. Covid Testing % - USA vs World
 
+### Project Objective
+
+Here, I analyzed how USA has done in terms of controlling Covid Testing with respect to the World. 
+
+### Data Used
+
+From the Covid-19 dataset that was downloaded from <a href = "https://ourworldindata.org/covid-deaths"> Our World in Data </a> website in Project 1, I used the Excel sheet containing data on Testing & Vaccinations.
+
+### Analysis
+
+1. I used SQL Server Management Studio to extract the Covid Testing % in the USA and the World, which was taken as a percentage of the population. The queries used to extract the data are available in the <a href = ""> Covid Tests - USA vs Rest of the World.sql </a> file 
+
+2. Using the data extracted in Step 1, I created a visualizations in Tableau - <a href = ""> Covid Testing % - USA vs World </a>
+
+### Insights
+
+1. USA lies in the 1st quartile among all the countries in terms of the percentage of their population to have contracted the Covid-19 virus.
+2. Since the virus began to spread, the percentage of Covid Testing in the USA has consistently increased at a more rapid pace than that of the World until May 2022 and then tapered off after that before finally stopping from July onwards.
+
+### Conclusion
+
 
 
 ## 3. Covid Vaccination vs Cases & Deaths
+
+### Project Objective
+
+
+
+### Data Used
+
+
+
+### Analysis
+
+
+
+### Insights
+
+
+
+### Conclusion
 
 
 
