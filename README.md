@@ -60,9 +60,9 @@ Several records in the data had fields with null values which needed to be made 
 
 ### Analysis
 
-1. I used SQL Server Management Studio to extract the Covid Testing Per Million in the USA and the World, which was taken as a percentage of the population. The queries used to extract the data are available in the <a href = ""> Covid Testing Per Million - USA vs Rest of the World.sql </a> file 
+1. I used SQL Server Management Studio to extract the Covid Testing Per Million in the USA and the World, which was taken as a percentage of the population. The queries used to extract the data are available in the <a href = ""> Covid Testing Data.sql </a> file 
 
-2. Using the data extracted in Step 1, I created a visualizations in Tableau - <a href = ""> Covid Testing Per Million - USA vs World </a>
+2. Using the data extracted in Step 1, I created a visualizations in Tableau - <a href = "https://public.tableau.com/app/profile/rahul5702/viz/ComparisonofCovidTestinginUSAandtheWorld/Dashboard1#1"> Covid Testing % - USA vs World </a>
 
 ### Insights
 
