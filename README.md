@@ -107,7 +107,7 @@ Several records in the data had fields with null values which needed to be made 
 
 ### Conclusion
 
-Whether compared by country or date, one can infer that the Number of Covid Vaccinations is directly proportional to the Number of Cases & Deaths
+Whether compared by country or date, one can infer that the Number of Covid Vaccinations is directly proportional to the Number of Cases & Deaths, ie, the Number of Covid Vaccinations increases with the Number of Cases & Deaths
 
 ## Project 4 (Python)
 
