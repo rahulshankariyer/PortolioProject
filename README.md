@@ -14,7 +14,13 @@ In this project, I analyzed how USA has done in terms of controlling Covid Cases
 
 ### Data Used
 
-The Covid-19 data that I had downloaded contained various data on Covid Cases, Deaths, Testing and Vaccinations from January 1st, 2020 to November 21st, 2022. So I split the data into two Excel sheets - one containing the data on Cases & Deaths and another containing data on the Testing & Vaccinations.
+The Covid-19 data that I had downloaded contained various data on Covid Cases, Deaths, Testing and Vaccinations from January 1st, 2020 to November 21st, 2022. So I split the data into two Excel sheets - 
+
+<a href = "https://docs.google.com/spreadsheets/d/1CjLnLv_ut9UO1hZPHKjjKm4udFNUBc8z/edit#gid=1391408898"> Excel Sheet #1: Covid Cases & Deaths </a>
+
+<a href = "https://docs.google.com/spreadsheets/d/1tbjElTWQUju5wL6IIH2W14F-32-lJ8n5/edit?usp=share_link&ouid=106525515537823506540&rtpof=true&sd=true"> Excel Sheet #2: Covid Testing & Vaccinations </a>
+
+For the purpose of the above project, we will be using the <a href = "https://docs.google.com/spreadsheets/d/1CjLnLv_ut9UO1hZPHKjjKm4udFNUBc8z/edit#gid=1391408898"> Covid Cases & Deaths </a> dataset
 
 ### Analysis
 
@@ -45,7 +51,7 @@ Here, I analyzed how USA has done in terms of controlling Covid Testing with res
 
 ### Data Used
 
-From the Covid-19 dataset that was downloaded from <a href = "https://ourworldindata.org/covid-deaths"> Our World in Data </a> website in Project 1, I used the Excel sheet containing data on Testing & Vaccinations.
+From the Covid-19 dataset that was downloaded from <a href = "https://ourworldindata.org/covid-deaths"> Our World in Data </a> website in Project 1, I used the <a href = "https://docs.google.com/spreadsheets/d/1tbjElTWQUju5wL6IIH2W14F-32-lJ8n5/edit?usp=share_link&ouid=106525515537823506540&rtpof=true&sd=true"> Excel Sheet #2: Covid Testing & Vaccinations </a> dataset
 
 ### Data Transformations
 
@@ -60,9 +66,9 @@ Several records in the data had fields with null values which needed to be made 
 
 ### Analysis
 
-1. I used SQL Server Management Studio to extract the Covid Testing Per Million in the USA and the World, which was taken as a percentage of the population. The queries used to extract the data are available in the <a href = ""> Covid Testing Data.sql </a> file 
+1. I used SQL Server Management Studio to extract the Covid Testing % in the USA and the World, which was taken as a percentage of the population. The queries used to extract the data are available in the <a href = "https://github.com/rahulshankariyer/PortolioProject/blob/main/Covid-19/Covid%20Testing%20Data.sql"> Covid Testing Data.sql </a> file 
 
-2. Using the data extracted in Step 1, I created a visualizations in Tableau - <a href = "https://public.tableau.com/app/profile/rahul5702/viz/ComparisonofCovidTestinginUSAandtheWorld/Dashboard1#1"> Covid Testing % - USA vs World </a>
+2. Using the data extracted in Step 1, I created a visualization in Tableau - <a href = "https://public.tableau.com/app/profile/rahul5702/viz/ComparisonofCovidTestinginUSAandtheWorld/Dashboard1#1"> Covid Testing % - USA vs World </a>
 
 ### Insights
 
@@ -71,29 +77,37 @@ Several records in the data had fields with null values which needed to be made 
 
 ### Conclusion
 
-
+The fact that USA had a Testing % of 270%, more than most countries in the world, indicates that they were able to perform testing on a large % of their population multiple times. Although there are a lot of countries who have done so, USA has still done a better job than most other nations in getting people tested. 
 
 ## 3. Covid Vaccination vs Cases & Deaths
 
 ### Project Objective
 
-
+Here, I tried to find the correlation between the Covid Vaccinations and its correlation with Covid Deaths and Covid Cases.
 
 ### Data Used
 
+Just like for analyzing the Testing data, here too I used the <a href = "https://docs.google.com/spreadsheets/d/1tbjElTWQUju5wL6IIH2W14F-32-lJ8n5/edit?usp=share_link&ouid=106525515537823506540&rtpof=true&sd=true"> Excel Sheet #2: Covid Testing & Vaccinations </a> dataset
 
+### Data Transformations
+
+Several records in the data had fields with null values which needed to be made into '0' for performing various mathematical calculations on them. So those fields were changed from null to '0'.
 
 ### Analysis
 
+1. I used SQL Server Management Studio to extract the data of Covid Vaccinations vs Cases & Deaths by both date & country. The queries used to extract the data are available in the <a href = "https://github.com/rahulshankariyer/PortolioProject/blob/main/Covid-19/Vaccinations%20vs%20Covid%20Cases%20%26%20Deaths.sql"> Vaccinations vs Covid Cases & Deaths.sql </a> file 
 
+2. Using the data extracted in Step 1, I performed the following analysis in Jupyter Notebooks - <a href = "https://github.com/rahulshankariyer/PortolioProject/blob/main/Covid-19/Covid%2019%20Vaccinations%20vs%20Cases%20%26%20Deaths.ipynb"> Covid Vaccinations vs Cases & Deaths by Date & Country </a>
 
 ### Insights
 
-
+1. When we look at country wise data, the vaccinations have an equally high correlation with both cases and deaths
+2. When we look at date wise data, the vaccinations have a slightly higher correlation with cases than with deaths
+3. Vacccinations have a much higher correlation with both cases and deaths when looked at country wise than when looked at date wise
 
 ### Conclusion
 
-
+Whether compared by country or date, one can infer that the Number of Covid Vaccinations is directly proportional to the Number of Cases & Deaths
 
 ## Project 4 (Python)
 
