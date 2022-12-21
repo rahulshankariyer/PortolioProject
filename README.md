@@ -2,15 +2,14 @@
 
 ## Table of Contents
 
-1. Covid Case & Death % - USA vs Rest of World
-2. Covid Testing % - USA vs Rest of World
-3. Covid Vaccination vs Cases & Deaths
+1. Tests Per Case, Covid Case & Death % - USA vs Rest of World
+2. Covid Vaccination vs Cases & Deaths
 
-## 1. Covid Case & Death % - USA vs Rest of World
+## 1. Tests Per Case, Covid Case & Death % - USA vs Rest of World
 
 ### Project Objective
 
-In this project, I analyzed how USA has done in terms of controlling Covid Cases as well as Covid Deaths with respect to the World. For this purpose, I downloaded a Covid-19 dataset from the website <a href = "https://ourworldindata.org/covid-deaths"> Our World in Data </a>
+In this project, I analyzed how USA has done in terms of Covid Testing and Controlling Covid Cases & Deaths compared to the Rest of the World. For this purpose, I downloaded a Covid-19 dataset from the website <a href = "https://ourworldindata.org/covid-deaths"> Our World in Data </a>
 
 ### Data Used
 
@@ -20,15 +19,35 @@ The Covid-19 data that I had downloaded contained various data on Covid Cases, D
 
 <a href = "https://docs.google.com/spreadsheets/d/1tbjElTWQUju5wL6IIH2W14F-32-lJ8n5/edit?usp=share_link&ouid=106525515537823506540&rtpof=true&sd=true"> Excel Sheet #2: Covid Testing & Vaccinations </a>
 
-For the purpose of the above project, we will be using the <a href = "https://docs.google.com/spreadsheets/d/1CjLnLv_ut9UO1hZPHKjjKm4udFNUBc8z/edit#gid=1391408898"> Covid Cases & Deaths </a> dataset
+### Data Transformations
+
+Several records in the data had fields with null values which needed to be made into '0' for performing various mathematical calculations on them. Most of these null values were in January and February 2020. The below fields were changed from null to '0':
+
+1. total_cases
+2. new_cases
+3. total_deaths
+4. new_deaths
+5. total_tests
+6. new_tests
+7. total_tests_per_thousand
+8. new_tests_per_thousand
+9. positive_rate
+10. tests_per_case
 
 ### Analysis
 
-1. I used SQL Server Management Studio to extract the Covid Case % of the Population & Death % of the Positive Cases in the USA and the Rest of the World. The Covid Case % was taken as a percentage of the population and the Covid Death % was taken as a percentage of those who tested positive for Covid. The queries used to extract the data are available in the <a href = "https://github.com/rahulshankariyer/PortolioProject/blob/main/Covid-19/Covid%20Cases%20-%20USA%20vs%20Rest%20of%20the%20World.sql"> Covid Cases - USA vs Rest of the World.sql </a> file 
+1. I used SQL Server Management Studio to extract the Tests Per Case, Covid Case % & Death % which denote:
 
-2. Using the data extracted in Step 1, I created 3 visualizations in Tableau - 
-    (i) <a href = "https://public.tableau.com/app/profile/rahul5702/viz/ComparisonofCovidCasesDeathsinUSAvstheWorldDataFromJan12020tillNovember212022/Dashboard1"> Covid Case % - USA vs World </a>
-    (ii) <a href = "https://public.tableau.com/app/profile/rahul5702/viz/ComparisonofCovidCasesDeathsinUSAvstheWorldDataFromJan12020tillNovember212022/Dashboard2"> Covid Death % - USA vs World </a>
+    (i) Tests Per Case - Average Number of Tests Conducted to Detect a Positive Covid Case
+    (ii) Covid Case % - Percentage of the Population to Test Positive for Covid
+    (iii) Covid Death % - Percentage of Deaths Among Those Who Tested Positive for Covid
+
+2. The queries used to extract the above data are available in the <a href = "https://github.com/rahulshankariyer/PortolioProject/blob/main/Covid-19/Covid%20Testing%2C%20Cases%20%26%20Deaths.sql"> Covid Testing, Cases & Deaths.sql </a> file 
+
+3. Using the data extracted in Step 2, I created 3 visualizations in Tableau - 
+    (i) <a href = "https://public.tableau.com/app/profile/rahul5702/viz/CovidTestsCasesDeaths/Tests_1#1"> Tests Per Case - USA vs Rest of the World </a>
+    (ii) <a href = "https://public.tableau.com/app/profile/rahul5702/viz/CovidTestsCasesDeaths/Cases"> Covid Case % - USA vs Rest of the World </a>
+    (iii) <a href = "https://public.tableau.com/app/profile/rahul5702/viz/CovidTestsCasesDeathsPart2/Deaths_1"> Covid Death % - USA vs Rest of the World </a>
     
 ### Insights
 
@@ -43,43 +62,7 @@ From the above data, I gather the following insights:
 
 The fact that 29.07% of the US population has contracted the virus while only 1.097% from those have died from it shows that while the US couldn't control the spread of the virus very well, they were able to control the death rate better than most other countries in the world.
 
-## 2. Covid Testing % - USA vs World
-
-### Project Objective
-
-Here, I analyzed how USA has done in terms of Covid Testing with respect to the World. 
-
-### Data Used
-
-From the Covid-19 dataset that was downloaded from <a href = "https://ourworldindata.org/covid-deaths"> Our World in Data </a> website in Project 1, I used the <a href = "https://docs.google.com/spreadsheets/d/1tbjElTWQUju5wL6IIH2W14F-32-lJ8n5/edit?usp=share_link&ouid=106525515537823506540&rtpof=true&sd=true"> Excel Sheet #2: Covid Testing & Vaccinations </a> dataset
-
-### Data Transformations
-
-Several records in the data had fields with null values which needed to be made into '0' for performing various mathematical calculations on them. Most of these null values were in January and February 2020. The below fields were changed from null to '0':
-
-1. total_tests
-2. new_tests
-3. total_tests_per_thousand
-4. new_tests_per_thousand
-5. positive_rate
-6. tests_per_case
-
-### Analysis
-
-1. I used SQL Server Management Studio to extract the Covid Testing % in the USA and the World, which was taken as a percentage of the population. The queries used to extract the data are available in the <a href = "https://github.com/rahulshankariyer/PortolioProject/blob/main/Covid-19/Covid%20Testing%20Data.sql"> Covid Testing Data.sql </a> file 
-
-2. Using the data extracted in Step 1, I created a visualization in Tableau - <a href = "https://public.tableau.com/app/profile/rahul5702/viz/ComparisonofCovidTestinginUSAandtheWorld/Dashboard1#1"> Covid Testing % - USA vs World </a>
-
-### Insights
-
-1. USA lies in the 1st quartile among all the countries in terms of Testing %.
-2. Since the virus began to spread, the Covid Testing % in the USA has consistently increased at a more rapid pace than that of the World until May 2022 and then tapered off after that before finally stopping from July onwards.
-
-### Conclusion
-
-The fact that USA had a Testing % of 270%, more than most countries in the world, indicates that they were able to perform testing on a large % of their population multiple times. Although there are a lot of countries who have done so, USA has still done a better job than most other nations in getting people tested. 
-
-## 3. Covid Vaccination vs Cases & Deaths
+## 2. Covid Vaccination vs Cases & Deaths
 
 ### Project Objective
 
