@@ -45,8 +45,8 @@ Several records in the data had fields with null values which needed to be made 
 1. I used SQL Server Management Studio to extract the Tests Per Case, Covid Case % & Death % which denote:
 
     (i) Tests Per Case - Average Number of Tests Conducted to Detect a Positive Covid Case
-    (ii) Covid Case % - Percentage of the Population to Test Positive for Covid
-    (iii) Covid Death % - Percentage of Deaths Among Those Who Tested Positive for Covid
+    (ii) Covid Case % - Percentage of the Population to have Contracted Covid
+    (iii) Covid Death % - Percentage of Deaths Among Those Who Contracted Covid
 
 2. The queries used to extract the above data are available in the <a href = "https://github.com/rahulshankariyer/PortolioProject/blob/main/Covid-19/Covid%20Testing%2C%20Cases%20%26%20Deaths.sql"> Covid Testing, Cases & Deaths.sql </a> file 
 
