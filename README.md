@@ -59,7 +59,7 @@ Several records in the data had fields with null values which needed to be made 
 
 From the above data, I gather the following insights:
 
-1. USA ranks #81 in the world among 236 nations when it comes to the Number of Tests Per Case and is among 160 nations in the World to have less than 10 Tests Per Case.
+1. USA ranks #81 in the world among 236 nations when it comes to the Number of Tests Per Case and is among 160 nations in the World to have less than 10 Tests Per Case
 2. During the period that the Testing was carried out, USA consistently had more Tests Per Case than the Rest of the World Combined except for a couple of months each in mid 2020 and early 2022.
 3. USA lies in the 3rd quartile among all the countries in terms of the percentage of their population to have contracted the Covid-19 virus.
 4. Since the virus began to spread, the percentage of Covid Cases in the USA has consistently increased at a more rapid pace than that of the Rest of the World. 
