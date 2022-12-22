@@ -19,6 +19,12 @@ The Covid-19 data that I had downloaded contained various data on Covid Cases, D
 
 <a href = "https://docs.google.com/spreadsheets/d/1tbjElTWQUju5wL6IIH2W14F-32-lJ8n5/edit?usp=share_link&ouid=106525515537823506540&rtpof=true&sd=true"> Excel Sheet #2: Covid Testing & Vaccinations </a>
 
+### Tools Used
+
+1. Excel
+2. Microsoft SQL Server Management Studio
+3. Tableau
+
 ### Data Transformations
 
 Several records in the data had fields with null values which needed to be made into '0' for performing various mathematical calculations on them. Most of these null values were in January and February 2020. The below fields were changed from null to '0':
@@ -47,20 +53,23 @@ Several records in the data had fields with null values which needed to be made 
 3. Using the data extracted in Step 2, I created 3 visualizations in Tableau - 
     (i) <a href = "https://public.tableau.com/app/profile/rahul5702/viz/CovidTestsCasesDeaths/Tests_1#1"> Tests Per Case - USA vs Rest of the World </a>
     (ii) <a href = "https://public.tableau.com/app/profile/rahul5702/viz/CovidTestsCasesDeaths/Cases"> Covid Case % - USA vs Rest of the World </a>
-    (iii) <a href = "https://public.tableau.com/app/profile/rahul5702/viz/CovidTestsCasesDeathsPart2/Deaths_1"> Covid Death % - USA vs Rest of the World </a>
+    (iii) <a href = "https://public.tableau.com/app/profile/rahul5702/viz/CovidTestsCasesDeathsPart2/Deaths"> Covid Death % - USA vs Rest of the World </a>
     
 ### Insights
 
 From the above data, I gather the following insights:
 
-1. USA lies in the 3rd quartile among all the countries in terms of the percentage of their population to have contracted the Covid-19 virus.
-2. Since the virus began to spread, the percentage of Covid Cases in the USA has consistently increased at a more rapid pace than that of the Rest of the World. 
-3. USA lies in the 3rd quartile among all the countries in terms of the percentage of deaths among those who contracted the Covid-19 virus.
-4. Since the virus began to spread, the percentage of Covid Deaths in the USA has overall increased and decreased at a similar rate with that of the Rest of the world, sometimes going above and sometimes going below.
+1. USA ranks #81 in the world among 236 nations when it comes to the Number of Tests Per Case and is among 160 nations in the World to have less than 10 Tests Per Case.
+2. During the period that the Testing was carried out, USA consistently had more Tests Per Case than the Rest of the World Combined except for a couple of months each in mid 2020 and early 2022.
+3. USA lies in the 3rd quartile among all the countries in terms of the percentage of their population to have contracted the Covid-19 virus.
+4. Since the virus began to spread, the percentage of Covid Cases in the USA has consistently increased at a more rapid pace than that of the Rest of the World. 
+5. USA lies in the 3rd quartile among all the countries in terms of the percentage of deaths among those who contracted the Covid-19 virus.
+6. Since the virus began to spread, the percentage of Covid Deaths in the USA has overall increased and decreased at a similar rate with that of the Rest of the world, sometimes going above and sometimes going below.
 
-### Conclusion
+### Conclusions
 
-The fact that 29.07% of the US population has contracted the virus while only 1.097% from those have died from it shows that while the US couldn't control the spread of the virus very well, they were able to control the death rate better than most other countries in the world.
+1. The fact that USA had detected 9.28 Tests Per Case while 29.07% of them actually caught the virus implies that the USA could only detect roughly one third of all Covid Cases, meaning that among the other two thirds, people either didn't get tested or were asymptomatic and tested negative.
+2. The fact that 29.07% of the US population has contracted the virus while only 1.097% from those have died from it shows that while the US couldn't control the spread of the virus very well, they were able to control the death rate better than most other countries in the world.
 
 ## 2. Covid Vaccination vs Cases & Deaths
 
@@ -70,7 +79,13 @@ Here, I tried to find the correlation between the Covid Vaccinations and its cor
 
 ### Data Used
 
-Just like for analyzing the Testing data, here too I used the <a href = "https://docs.google.com/spreadsheets/d/1tbjElTWQUju5wL6IIH2W14F-32-lJ8n5/edit?usp=share_link&ouid=106525515537823506540&rtpof=true&sd=true"> Excel Sheet #2: Covid Testing & Vaccinations </a> dataset
+For this project, here too I used only the <a href = "https://docs.google.com/spreadsheets/d/1tbjElTWQUju5wL6IIH2W14F-32-lJ8n5/edit?usp=share_link&ouid=106525515537823506540&rtpof=true&sd=true"> Excel Sheet #2: Covid Testing & Vaccinations </a> dataset, which was also used in Project 1.
+
+### Tools Used
+
+1. Excel
+2. Microsoft SQL Server Management Studio
+3. Tableau
 
 ### Data Transformations
 
