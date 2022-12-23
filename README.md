@@ -99,7 +99,7 @@ In this project, an analysis was done on whether the Covid Vaccinations led to a
 
 ### 2. Data Used
 
-
+For this purpose, a Covid-19 dataset from the website <a href = "https://ourworldindata.org/covid-deaths"> Our World in Data </a> was used. This dataset contained various data on Covid Cases, Deaths, Testing and Vaccinations. The period chosen was January 1st, 2020 to November 21st, 2022. 
 
 ### 3. Tools Used
 
