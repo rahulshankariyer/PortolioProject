@@ -132,12 +132,4 @@ Several records in the data had fields with null values which needed to be made 
 
 
 
-## III. Project 4 (Python)
 
-For the purpose of this project, I downloaded a Movies dataset from Kaggle from the below link:
-
-<a href = "https://www.kaggle.com/datasets/danielgrijalvas/movies"> Movies dataset </a>
-
-After downloading Anaconda Navigator and launching Jupyter Notebooks, I cleaned and analyzed the data using Python. The code is available in the below file:
-
-<a href = "Project 4/Movies.ipynb"> Movies.ipynb </a>
