@@ -59,18 +59,19 @@ Several records in the data had fields with null values which needed to be made 
 
 From the above data, I gather the following insights:
 
-1. USA ranks #81 in the world in Covid Positive Rate, with 10.77%. The Rest of the World comes with 12.94 in comparison.
+1. USA ranks #81 in the World in Covid Positive Rate, with 10.77%. The Rest of the World comes with 12.94% in comparison.
 2. During the period that the Testing was carried out, USA consistently had more Tests Per Case than the Rest of the World Combined except for a couple of months each in mid 2020 and early 2022.
-3. USA ranks #24 in the world when in Testing % of the Population, with 270% of the population tested. The Rest of the World comes with 183% in comparison.
+3. USA ranks #24 in the World in Testing % of the Population, with 270% of the population tested. The Rest of the World comes with 183% in comparison.
 4. Since the virus began to spread, USA has consistently tested a higher percentage of its population than the Rest of the World has from March 2020 through to July 2022.
+5. USA ranks #57 in the World in Covid % of the Population, with 29.07% contracting the virus. The Rest of the World comes with 7% in comparison.
 5. Since the virus began to spread, the percentage of Covid Cases in the USA has consistently increased at a more rapid pace than that of the Rest of the World. 
-6. 
+6. USA ranks #24 in the World in Death % among Covid Positive Cases, with 1.02% of them dying of the virus. The Rest of the World comes with 1.03% in comparison.
 7. Since the virus began to spread, the percentage of Covid Deaths in the USA has overall increased and decreased at a similar rate with that of the Rest of the world, sometimes going above and sometimes going below.
 
 ### Conclusions
 
-1. The fact that USA had detected 9.28 Tests Per Case while 29.07% of them actually caught the virus implies that the USA could only detect roughly one third of all Covid Cases, meaning that among the other two thirds, people either didn't get tested or were asymptomatic and tested negative.
-2. The fact that 29.07% of the US population has contracted the virus while only 1.097% from those have died from it shows that while the US couldn't control the spread of the virus very well, they were able to control the death rate better than most other countries in the world.
+1. USA was more efficient than the Rest of the World in Testing & detecting Covid Positive Cases.
+2. USA couldn't control the spread of the virus very well, but they were able to control the death rate better than most other countries in the world.
 
 ## 2. Covid Vaccination vs Cases & Deaths
 
