@@ -28,7 +28,11 @@ For this purpose, a Covid-19 dataset from the website <a href = "https://ourworl
 
 ### 4. Data Transformations
 
+The data used for the purpose of this analysis were:
 
+1. Testing for Infections
+2. Postivity Rates
+3. Death Rates
 
 Several records in the data had fields with null values which needed to be made into '0' for performing various mathematical calculations on them. Most of these null values were in January and February 2020. The below fields were changed from null to '0':
 
