@@ -126,10 +126,12 @@ Several records in the data had fields with null values which needed to be made 
 
 ### 6. Insights
 
-
+1. The number of people getting vaccinated steadily increased each day
+2. The number of people getting infected by Covid-19 steadily decreased each day
+3. The number of people getting dying from Covid-19 steadily decreased each day
 
 ### 7. Conclusion
 
-
+The steady increase in Vaccinations combined with a similar decrease in Covid-19 Infections & Deaths suggests that the vaccines are indeed proving effective in countering the Covid-19 Pandemic.
 
 
