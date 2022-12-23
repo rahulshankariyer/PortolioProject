@@ -109,6 +109,12 @@ For this purpose, a Covid-19 dataset from the website <a href = "https://ourworl
 
 ### 4. Data Transformations
 
+The data used for the purpose of this analysis were:
+
+1. Vaccination Data
+2. Postivity Rates
+3. Death Rates
+
 Several records in the data had fields with null values which needed to be made into '0' for performing various mathematical calculations on them. So those fields were changed from null to '0'.
 
 ### 5. Analysis
