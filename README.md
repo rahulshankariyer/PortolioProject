@@ -81,7 +81,7 @@ From the above data, the following insights were gathered:
 1. USA was more efficient than the Rest of the World in Testing & detecting Covid Positive Cases.
 2. USA couldn't control the spread of the virus very well, but they were able to control the death rate better than most other countries in the world.
 
-## II. Covid Vaccination vs Cases & Deaths
+## II. Covid Vaccination Effect On Cases & Deaths
 
 ## Table of Contents
 
@@ -95,11 +95,11 @@ From the above data, the following insights were gathered:
 
 ### 1. Project Objective
 
-Here, I tried to find the correlation between the Covid Vaccinations and its correlation with Covid Deaths and Covid Cases.
+In this project, an analysis was done on whether the Covid Vaccinations led to a decline in Covid-19.
 
 ### 2. Data Used
 
-For this project, here too I used only the <a href = "https://docs.google.com/spreadsheets/d/1tbjElTWQUju5wL6IIH2W14F-32-lJ8n5/edit?usp=share_link&ouid=106525515537823506540&rtpof=true&sd=true"> Excel Sheet #2: Covid Testing & Vaccinations </a> dataset, which was also used in Project 1.
+
 
 ### 3. Tools Used
 
