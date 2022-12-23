@@ -51,14 +51,14 @@ Several records in the data had fields with null values which needed to be made 
 
 1. Using SQL Server Management Studio, the following were extracted:
 
-    (i) Tests Per Case - Average Number of Tests Conducted to Detect a Positive Covid Case
-    (ii) Testing % - Percentage of the Population Tested for Covid
-    (iii) Covid Case % - Percentage of the Population to have Contracted Covid
+    (i) Testing % - Percentage of the Population Tested for Covid
+    (ii) Covid Case % - Percentage of the Population to have Contracted Covid
+    (iii) Covid Positivity % - Percentage of Infections Among Those Who were Tested
     (iv) Covid Death % - Percentage of Deaths Among Those Who Contracted Covid
 
 2. The queries used to extract the above data are available in the <a href = "https://github.com/rahulshankariyer/PortolioProject/blob/main/Covid-19/Covid%20Testing%2C%20Cases%20%26%20Deaths.sql"> Covid Testing, Cases & Deaths.sql </a> file 
 
-3. Using the data extracted in Step 2, I created 3 visualizations in Tableau - 
+3. Using the data extracted in Step 2, 3 visualizations were created in Tableau - 
     (i) <a href = "https://public.tableau.com/app/profile/rahul5702/viz/CovidTestsCasesDeaths/Tests_1#1"> Tests Per Case - USA vs Rest of the World </a>
     (ii) <a href = "https://public.tableau.com/app/profile/rahul5702/viz/CovidTestsCasesDeaths/Cases"> Covid Case % - USA vs Rest of the World </a>
     (iii) <a href = "https://public.tableau.com/app/profile/rahul5702/viz/CovidTestsCasesDeathsPart2/Deaths"> Covid Death % - USA vs Rest of the World </a>
