@@ -67,13 +67,13 @@ Several records in the data had fields with null values which needed to be made 
 
 From the above data, the following insights were gathered:
 
-1. USA ranks #81 in the World in Covid Positive Rate, with 10.77%. The Rest of the World comes with 12.94% in comparison.
+1. USA ranks #81 in the World in Covid Positive Rate, with 10.77%. The Rest of the World comes in with 12.94% in comparison.
 2. During the period that the Testing was carried out, USA consistently had more Tests Per Case than the Rest of the World Combined except for a couple of months each in mid 2020 and early 2022.
-3. USA ranks #24 in the World in Testing % of the Population, with 270% of the population tested. The Rest of the World comes with 183% in comparison.
+3. USA ranks #24 in the World in Testing % of the Population, with 270% of the population tested. The Rest of the World comes in with 183% in comparison.
 4. Since the virus began to spread, USA has consistently tested a higher percentage of its population than the Rest of the World has from March 2020 through to July 2022.
-5. USA ranks #57 in the World in Covid % of the Population, with 29.07% contracting the virus. The Rest of the World comes with 7% in comparison.
+5. USA ranks #57 in the World in Covid % of the Population, with 29.07% contracting the virus. The Rest of the World comes in with 7% in comparison.
 5. Since the virus began to spread, the percentage of Covid Cases in the USA has consistently increased at a more rapid pace than that of the Rest of the World. 
-6. USA ranks #24 in the World in Death % among Covid Positive Cases, with 1.02% of them dying of the virus. The Rest of the World comes with 1.03% in comparison.
+6. USA ranks #24 in the World in Death % among Covid Positive Cases, with 1.02% of them dying of the virus. The Rest of the World comes in with 1.03% in comparison.
 7. Since the virus began to spread, the percentage of Covid Deaths in the USA has overall increased and decreased at a similar rate with that of the Rest of the world, sometimes going above and sometimes going below.
 
 ### 7. Conclusions
