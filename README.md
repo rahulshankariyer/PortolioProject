@@ -14,9 +14,11 @@
 
 ### 1. Project Objective
 
-In this project, I analyzed how USA has done in terms of Covid Testing and Controlling Covid Cases & Deaths compared to the Rest of the World. For this purpose, I downloaded a Covid-19 dataset from the website <a href = "https://ourworldindata.org/covid-deaths"> Our World in Data </a>
+In this project, an analysis was made on how USA has done in terms of Covid Testing and Controlling Covid Cases & Deaths compared to the Rest of the World. 
 
 ### 2. Data Used
+
+For this purpose, I downloaded a Covid-19 dataset from the website <a href = "https://ourworldindata.org/covid-deaths"> Our World in Data </a>
 
 The Covid-19 data that I had downloaded contained various data on Covid Cases, Deaths, Testing and Vaccinations from January 1st, 2020 to November 21st, 2022. So I split the data into two Excel sheets - 
 
