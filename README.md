@@ -120,19 +120,17 @@ Several records in the data had fields with null values which needed to be made 
 
 ### 5. Analysis
 
-1. I used SQL Server Management Studio to extract the data of Covid Vaccinations vs Cases & Deaths by both date & country. The queries used to extract the data are available in the <a href = "https://github.com/rahulshankariyer/PortolioProject/blob/main/Covid-19/Vaccinations%20vs%20Covid%20Cases%20%26%20Deaths.sql"> Vaccinations vs Covid Cases & Deaths.sql </a> file 
-
-2. Using the data extracted in Step 1, I performed the following analysis in Jupyter Notebooks - <a href = "https://github.com/rahulshankariyer/PortolioProject/blob/main/Covid-19/Covid%2019%20Vaccinations%20vs%20Cases%20%26%20Deaths.ipynb"> Covid Vaccinations vs Cases & Deaths by Date & Country </a>
+1. Using SQL Server Management Studio the data of Covid Vaccinations vs Cases & Deaths by date was extracted. 
+2. The queries used to extract the data are available in the <a href = "https://github.com/rahulshankariyer/PortolioProject/blob/main/Covid-19/Vaccinations%20vs%20Covid%20Cases%20%26%20Deaths.sql"> Vaccinations vs Covid Cases & Deaths.sql </a> file 
+3. Using the data extracted in Step 1, I performed the following analysis in Jupyter Notebooks - <a href = "https://github.com/rahulshankariyer/PortolioProject/blob/main/Covid-19/Covid%2019%20Vaccinations%20vs%20Cases%20%26%20Deaths.ipynb"> Covid Vaccinations vs Cases & Deaths by Date & Country </a>
 
 ### 6. Insights
 
-1. When we look at country wise data, the vaccinations have an equally high correlation with both cases and deaths
-2. When we look at date wise data, the vaccinations have a slightly higher correlation with cases than with deaths
-3. Vacccinations have a much higher correlation with both cases and deaths when looked at country wise than when looked at date wise
+
 
 ### 7. Conclusion
 
-Whether compared by country or date, one can infer that the Number of Covid Vaccinations is directly proportional to the Number of Cases & Deaths, ie, the Number of Covid Vaccinations increases with the Number of Cases & Deaths
+
 
 ## III. Project 4 (Python)
 
