@@ -52,7 +52,7 @@ Several records in the data had fields with null values which needed to be made 
 1. Using SQL Server Management Studio, the following were extracted:
 
     (i) Tests Per Case - Average Number of Tests Conducted to Detect a Positive Covid Case
-    (ii) Testing % - Percentage of the Population to be Tested for Covid
+    (ii) Testing % - Percentage of the Population Tested for Covid
     (iii) Covid Case % - Percentage of the Population to have Contracted Covid
     (iv) Covid Death % - Percentage of Deaths Among Those Who Contracted Covid
 
