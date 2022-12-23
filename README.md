@@ -61,7 +61,7 @@ Several records in the data had fields with null values which needed to be made 
     
 ### 6. Insights
 
-From the above data, I gather the following insights:
+From the above data, the following insights were gathered:
 
 1. USA ranks #81 in the World in Covid Positive Rate, with 10.77%. The Rest of the World comes with 12.94% in comparison.
 2. During the period that the Testing was carried out, USA consistently had more Tests Per Case than the Rest of the World Combined except for a couple of months each in mid 2020 and early 2022.
@@ -77,43 +77,53 @@ From the above data, I gather the following insights:
 1. USA was more efficient than the Rest of the World in Testing & detecting Covid Positive Cases.
 2. USA couldn't control the spread of the virus very well, but they were able to control the death rate better than most other countries in the world.
 
-## Covid Vaccination vs Cases & Deaths
+## II. Covid Vaccination vs Cases & Deaths
 
-### Project Objective
+## Table of Contents
+
+1. Project Objective
+2. Data Used
+3. Tools Used
+4. Data Transformations
+5. Analysis
+6. Insights
+7. Conclusions
+
+### 1. Project Objective
 
 Here, I tried to find the correlation between the Covid Vaccinations and its correlation with Covid Deaths and Covid Cases.
 
-### Data Used
+### 2. Data Used
 
 For this project, here too I used only the <a href = "https://docs.google.com/spreadsheets/d/1tbjElTWQUju5wL6IIH2W14F-32-lJ8n5/edit?usp=share_link&ouid=106525515537823506540&rtpof=true&sd=true"> Excel Sheet #2: Covid Testing & Vaccinations </a> dataset, which was also used in Project 1.
 
-### Tools Used
+### 3. Tools Used
 
 1. Excel
 2. Microsoft SQL Server Management Studio
 3. Tableau
 
-### Data Transformations
+### 4. Data Transformations
 
 Several records in the data had fields with null values which needed to be made into '0' for performing various mathematical calculations on them. So those fields were changed from null to '0'.
 
-### Analysis
+### 5. Analysis
 
 1. I used SQL Server Management Studio to extract the data of Covid Vaccinations vs Cases & Deaths by both date & country. The queries used to extract the data are available in the <a href = "https://github.com/rahulshankariyer/PortolioProject/blob/main/Covid-19/Vaccinations%20vs%20Covid%20Cases%20%26%20Deaths.sql"> Vaccinations vs Covid Cases & Deaths.sql </a> file 
 
 2. Using the data extracted in Step 1, I performed the following analysis in Jupyter Notebooks - <a href = "https://github.com/rahulshankariyer/PortolioProject/blob/main/Covid-19/Covid%2019%20Vaccinations%20vs%20Cases%20%26%20Deaths.ipynb"> Covid Vaccinations vs Cases & Deaths by Date & Country </a>
 
-### Insights
+### 6. Insights
 
 1. When we look at country wise data, the vaccinations have an equally high correlation with both cases and deaths
 2. When we look at date wise data, the vaccinations have a slightly higher correlation with cases than with deaths
 3. Vacccinations have a much higher correlation with both cases and deaths when looked at country wise than when looked at date wise
 
-### Conclusion
+### 7. Conclusion
 
 Whether compared by country or date, one can infer that the Number of Covid Vaccinations is directly proportional to the Number of Cases & Deaths, ie, the Number of Covid Vaccinations increases with the Number of Cases & Deaths
 
-## Project 4 (Python)
+## III. Project 4 (Python)
 
 For the purpose of this project, I downloaded a Movies dataset from Kaggle from the below link:
 
