@@ -1,17 +1,22 @@
 # Data Analysis Portolio Projects
 
+## Covid-19 Testing, Infections, Death Rates
+
 ## Table of Contents
 
-1. Tests Per Case, Covid Case & Death % - USA vs Rest of World
-2. Covid Vaccination vs Cases & Deaths
+1. Project Objective
+2. Data Used
+3. Tools Used
+4. Data Transformations
+5. Analysis
+6. Insights
+7. Conclusions
 
-## 1. Tests Per Case, Covid Case & Death % - USA vs Rest of World
-
-### Project Objective
+### 1. Project Objective
 
 In this project, I analyzed how USA has done in terms of Covid Testing and Controlling Covid Cases & Deaths compared to the Rest of the World. For this purpose, I downloaded a Covid-19 dataset from the website <a href = "https://ourworldindata.org/covid-deaths"> Our World in Data </a>
 
-### Data Used
+### 2. Data Used
 
 The Covid-19 data that I had downloaded contained various data on Covid Cases, Deaths, Testing and Vaccinations from January 1st, 2020 to November 21st, 2022. So I split the data into two Excel sheets - 
 
@@ -19,13 +24,13 @@ The Covid-19 data that I had downloaded contained various data on Covid Cases, D
 
 <a href = "https://docs.google.com/spreadsheets/d/1tbjElTWQUju5wL6IIH2W14F-32-lJ8n5/edit?usp=share_link&ouid=106525515537823506540&rtpof=true&sd=true"> Excel Sheet #2: Covid Testing & Vaccinations </a>
 
-### Tools Used
+### 3. Tools Used
 
 1. Excel
 2. Microsoft SQL Server Management Studio
 3. Tableau
 
-### Data Transformations
+### 4. Data Transformations
 
 Several records in the data had fields with null values which needed to be made into '0' for performing various mathematical calculations on them. Most of these null values were in January and February 2020. The below fields were changed from null to '0':
 
@@ -40,13 +45,14 @@ Several records in the data had fields with null values which needed to be made 
 9. positive_rate
 10. tests_per_case
 
-### Analysis
+### 5. Analysis
 
-1. I used SQL Server Management Studio to extract the Tests Per Case, Covid Case % & Death % which denote:
+1. I used SQL Server Management Studio to extract the Tests Per Case, Testing % Covid Case % & Death % which denote:
 
     (i) Tests Per Case - Average Number of Tests Conducted to Detect a Positive Covid Case
-    (ii) Covid Case % - Percentage of the Population to have Contracted Covid
-    (iii) Covid Death % - Percentage of Deaths Among Those Who Contracted Covid
+    (ii) Testing % - Percentage of the Population to be Tested for Covid
+    (iii) Covid Case % - Percentage of the Population to have Contracted Covid
+    (iv) Covid Death % - Percentage of Deaths Among Those Who Contracted Covid
 
 2. The queries used to extract the above data are available in the <a href = "https://github.com/rahulshankariyer/PortolioProject/blob/main/Covid-19/Covid%20Testing%2C%20Cases%20%26%20Deaths.sql"> Covid Testing, Cases & Deaths.sql </a> file 
 
@@ -55,7 +61,7 @@ Several records in the data had fields with null values which needed to be made 
     (ii) <a href = "https://public.tableau.com/app/profile/rahul5702/viz/CovidTestsCasesDeaths/Cases"> Covid Case % - USA vs Rest of the World </a>
     (iii) <a href = "https://public.tableau.com/app/profile/rahul5702/viz/CovidTestsCasesDeathsPart2/Deaths"> Covid Death % - USA vs Rest of the World </a>
     
-### Insights
+### 6. Insights
 
 From the above data, I gather the following insights:
 
@@ -68,12 +74,12 @@ From the above data, I gather the following insights:
 6. USA ranks #24 in the World in Death % among Covid Positive Cases, with 1.02% of them dying of the virus. The Rest of the World comes with 1.03% in comparison.
 7. Since the virus began to spread, the percentage of Covid Deaths in the USA has overall increased and decreased at a similar rate with that of the Rest of the world, sometimes going above and sometimes going below.
 
-### Conclusions
+### 7. Conclusions
 
 1. USA was more efficient than the Rest of the World in Testing & detecting Covid Positive Cases.
 2. USA couldn't control the spread of the virus very well, but they were able to control the death rate better than most other countries in the world.
 
-## 2. Covid Vaccination vs Cases & Deaths
+## Covid Vaccination vs Cases & Deaths
 
 ### Project Objective
 
