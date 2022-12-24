@@ -1,5 +1,77 @@
 # Data Analysis - Portolio Of Projects
 
+## I. Google Data Analytics Professional Certificate Case Study - Bike Sharing Data from Cyclistic, Chicago
+
+### Scenario
+
+I am a junior data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago. The people who utilize the Cyclistic bike-shairng program belong to one of two categories - member riders who have an annual membership with Cyclistic and casual riders who buy single day or single ride passes to utilize the service. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, the team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, the team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve my recommendations, so they must be backed up with compelling data insights and professional data visualizations.
+
+### Data Used
+
+<a href = "https://divvy-tripdata.s3.amazonaws.com/index.html"> This is the Original Bike Trip Data, it contains data of bike rides from the year 2013, the year of Cyclistic's founding, till the most recently concluded month. </a>
+
+The data chosen for this analysis was for the calendar year 2021.
+
+### Data Transformations
+
+1. Added a column named ride_length to calculate the time taken for each bike journey. 
+2. Calculation of ride_length: ended_at – started_at
+3. Added a column named day_of_week to mention which day of the week on which each trip happened
+4. Calculation of day_of_week: WEEKDAY(started_at,1), Values range from 1-7
+5. Generated Pivot tables to show the weekly stats of both the casual and member riders every month & quarter of the year 2021 – average ride lengths and number of rides
+
+### Tools Used
+
+1. SQL 
+2. Tableau 
+3. R Programming
+
+### Analysis
+
+The below visualizations were generated:
+
+<a href = "https://public.tableau.com/app/profile/rahul5702/viz/AverageRideLengthDataofCyclisticRiders/Sheet1"> 1. Casual Rider vs Member Rider - Ride Duration on Each Day of the Week </a>
+
+<a href = "https://cf549fb4859a40e5be50640a8c74b7e7.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2FRplot.png"> 2. Casual Rider vs Member Rider - Number of Riders on Each Day of the Week </a>
+
+<a href = "https://docs.google.com/spreadsheets/d/1OhBve9WtBEIp4GTkylZOpdaUHK3sWIfw/edit#gid=937473705"> 3. Casual Rider vs Member Rider - Ride Duration for Each Month of the Year </a>
+
+<a href = "https://docs.google.com/spreadsheets/d/1OhBve9WtBEIp4GTkylZOpdaUHK3sWIfw/edit#gid=1835290130"> 4. Casual Rider vs Member Rider - Number of Riders for Each Month of the Year </a>
+
+<a href = "https://docs.google.com/spreadsheets/d/1dd3sSPWzkqgV3-gcx2ALuvmczPqu_jWo/edit#gid=1097823435"> 5. Member Riders By Bike Type </a>
+
+<a href = "https://docs.google.com/spreadsheets/d/1Hw3X4yoWsC4sURiB8oZT_K7FXuXD4O0c/edit#gid=407787872"> 6. Casual Riders By Bike Type </a>
+
+<a href = "https://public.tableau.com/app/profile/rahul5702/viz/Top6StartEndStationsofCasualMemberRiders/Dashboard1"> 7. Casual Rider vs Member Rider - Top 6 Start & End Stations </a>
+
+<a href = "https://public.tableau.com/app/profile/rahul5702/viz/Top6MostPopularStationsbyBikeType/Sheet1"> 8. Top 6 Most Popular Stations by Bike Type </a>
+
+### Insights
+
+1. Casual riders on an average, ride longer than member riders
+2. The number of casual riders increased during the weekend while the number of member riders decreased during the weekend
+3. The top 6 stations for the member riders are clearly in downtown Chicago while the top 6 stations for the casual riders are closer to the tourist/leisure spots.
+4. The first three findings together indicate that members are generally commuters, while casual riders generally ride for leisure
+5. Number of riders reached its peak during the summer, especially July and August, and tapered off during winter
+6. From the data of a previous year (2019), there is a negligible number of members below the age of 16
+7. There is a negligible difference between the preferences of member and casual riders in the bike type category.
+8. In 13% of the rides, the riders neglected to return the bike to any station.
+
+### Recommendations (Data Based)
+
+1. Introduce 3 new types of membership:
+    (i) Weekend membership (Saturdays & Sundays)
+    (ii) Summer membership (May-October)
+    (iii) Weekend-Summer hybrid membership (Saturdays & Sundays and all of July & August)
+2. Approach the Corporations and local businesses to enroll their employees and offer group discounts, thus increasing membership
+3. Initiate a program to attract riders 16 years and below
+4. Based on frequency, make sure all stations are stocked with appropriate numbers and type of bikes.
+
+### Recommendations (General, not necessarily Data Based)
+
+1. Have a business tie up with a bank to finance annual memberships
+2. Develop an App. for members only with bike availability information at each station; bike reservation valid for 30 mins. ; other membership information such as expiry date, number of rides, ride duration, etc. This will enhance membership privileges, attracting the casual rider to become a member
+
 ## II. Covid-19 Testing, Infections, Death Rates
 
 ## Table of Contents
