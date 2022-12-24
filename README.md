@@ -1,6 +1,6 @@
 # Data Analysis - Portolio Of Projects
 
-## I. Covid-19 Testing, Infections, Death Rates
+## II. Covid-19 Testing, Infections, Death Rates
 
 ## Table of Contents
 
@@ -82,7 +82,7 @@ From the above data, the following insights were gathered:
 1. USA was more efficient than the Rest of the World in Testing & detecting Covid Positive Cases.
 2. USA couldn't control the spread of the virus very well, but they were able to control the death rate better than most other countries in the world.
 
-## II. Covid Vaccination Effect On Cases & Deaths
+## III. Covid Vaccination Effect On Cases & Deaths
 
 ## Table of Contents
 
