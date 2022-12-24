@@ -2,17 +2,34 @@
 
 ## I. Google Data Analytics Professional Certificate Case Study - Bike Sharing Data from Cyclistic, Chicago
 
-### Scenario
+## Table of Contents
+
+1. Scenario
+2. Data Used
+3. Tools Used
+4. Data Transformations
+5. Analysis
+6. Insights
+7. Recommendations (Data Based)
+8. Recommendations (General, not necessarily Data Based)
+
+### 1. Scenario
 
 I am a junior data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago. The people who utilize the Cyclistic bike-shairng program belong to one of two categories - member riders who have an annual membership with Cyclistic and casual riders who buy single day or single ride passes to utilize the service. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, the team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, the team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve my recommendations, so they must be backed up with compelling data insights and professional data visualizations.
 
-### Data Used
+### 2. Data Used
 
 <a href = "https://divvy-tripdata.s3.amazonaws.com/index.html"> This is the Original Bike Trip Data, it contains data of bike rides from the year 2013, the year of Cyclistic's founding, till the most recently concluded month. </a>
 
 The data chosen for this analysis was for the calendar year 2021.
 
-### Data Transformations
+### 3. Tools Used
+
+1. SQL 
+2. Tableau 
+3. R Programming
+
+### 4. Data Transformations
 
 1. Added a column named ride_length to calculate the time taken for each bike journey. 
 2. Calculation of ride_length: ended_at – started_at
@@ -20,13 +37,7 @@ The data chosen for this analysis was for the calendar year 2021.
 4. Calculation of day_of_week: WEEKDAY(started_at,1), Values range from 1-7
 5. Generated Pivot tables to show the weekly stats of both the casual and member riders every month & quarter of the year 2021 – average ride lengths and number of rides
 
-### Tools Used
-
-1. SQL 
-2. Tableau 
-3. R Programming
-
-### Analysis
+### 5. Analysis
 
 The below visualizations were generated:
 
@@ -46,7 +57,7 @@ The below visualizations were generated:
 
 <a href = "https://public.tableau.com/app/profile/rahul5702/viz/Top6MostPopularStationsbyBikeType/Sheet1"> 8. Top 6 Most Popular Stations by Bike Type </a>
 
-### Insights
+### 6. Insights
 
 1. Casual riders on an average, ride longer than member riders
 2. The number of casual riders increased during the weekend while the number of member riders decreased during the weekend
@@ -57,7 +68,7 @@ The below visualizations were generated:
 7. There is a negligible difference between the preferences of member and casual riders in the bike type category.
 8. In 13% of the rides, the riders neglected to return the bike to any station.
 
-### Recommendations (Data Based)
+### 7. Recommendations (Data Based)
 
 1. Introduce 3 new types of membership:
     (i) Weekend membership (Saturdays & Sundays)
@@ -67,7 +78,7 @@ The below visualizations were generated:
 3. Initiate a program to attract riders 16 years and below
 4. Based on frequency, make sure all stations are stocked with appropriate numbers and type of bikes.
 
-### Recommendations (General, not necessarily Data Based)
+### 8. Recommendations (General, not necessarily Data Based)
 
 1. Have a business tie up with a bank to finance annual memberships
 2. Develop an App. for members only with bike availability information at each station; bike reservation valid for 30 mins. ; other membership information such as expiry date, number of rides, ride duration, etc. This will enhance membership privileges, attracting the casual rider to become a member
