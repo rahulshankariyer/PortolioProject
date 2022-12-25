@@ -241,7 +241,7 @@ UCI Repository
 
 In this project, 20 clinical attributes for Diabetes, 9 clinical attributes for Cancer and 23 for Herbal Plants were used to predict their medical diagnosis.
 
-### 4. Tools Used
+### 4. Tool Used
 
 MATLAB
 
