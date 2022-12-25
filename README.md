@@ -319,12 +319,12 @@ The excel sheet in the following link contains 225 observations of accident vict
 5. Probability of Secondary Amputation Being Required
 6. Final Diagnosis
 
-It also contains the count of True Positives(TP), True Negatives(TN), False Positives(FP) and False Negative(FN) cases for each hospital. 
+It also contains the count of True Positives (TP), True Negatives (TN), False Positives (FP) and False Negatives (FN) cases for each hospital. 
 
-1. True Positives(TP) - The patient's limbs were Correctly evaluated as Salvaged.
-2. True Negatives(TN) - The patient's limbs were Correctly evaluated as Amputated.
-3. False Positives(FP) - The patient's limbs were Incorrectly evaluated as Salvaged.
-4. False Negatives(FN) - The patient's limbs were Incorrectly evaluated as Amputated.
+1. True Positives (TP) - The patient's limbs were Correctly evaluated as Salvaged.
+2. True Negatives (TN) - The patient's limbs were Correctly evaluated as Amputated.
+3. False Positives (FP) - The patient's limbs were Incorrectly evaluated as Salvaged.
+4. False Negatives (FN) - The patient's limbs were Incorrectly evaluated as Amputated.
 
 ### 3. Data Used
 
@@ -343,7 +343,7 @@ It also contains the count of True Positives(TP), True Negatives(TN), False Posi
 To make things simpler, the following transformations were made on the data:
 
 1. Amputation Probability was considered as the Sum of Probability of Primary Amputation and Secondary Amputation. 
-2. The Salvaging and Amputation Prediction of the Final Diagnosis given in terms of probabilities were converted to binary nature by predicting the limbs to be salvaged for any Salvage Probability above a certain Cut Off Value. 
+2. The Salvaging and Amputation Prediction of the Final Diagnosis given in terms of probabilities were converted to binary nature by predicting the limbs to be Salvaged for any Salvage Probability above a certain Cut Off Value. 
 3. The 6 cut off values chosen were - 
         (i) 0.92
         (ii) 0.88
@@ -366,9 +366,9 @@ Using the TP, TN, FP & FN, the sensitivity of TP% was plotted against the specif
 
 ### 7. Insights
 
-1. Ganga hospital was better than the other hospitals in the evaluation at salvaging or amputating limbs. 
-2. LSI is second best at evaluation, going by the graphs, behind Mess and OTA only in the 0.70 cut off. 
-3. Mess is better OTA in 4 out of the 6 cut offs under consideration, behind only in the 0.92 and 0.70 cut offs.
+1. Ganga hospital was better than the other hospitals in the evaluation at Salvaging or Amputating Limbs. 
+2. LSI is second best at evaluation, going by the graphs, behind Mess and OTA only in the 0.70 Cut Off. 
+3. Mess is better OTA in 4 out of the 6 Cut Offs under consideration, behind only in the 0.92 and 0.70 Cut Offs.
 
 ### 8. Conclusion
 
