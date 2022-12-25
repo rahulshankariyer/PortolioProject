@@ -288,7 +288,7 @@ Further background behind this project is given in the thesis in the PDF in the 
 
 <a href = "https://drive.google.com/drive/u/1/folders/1omvJKv7-dhtRXLOzdkoWOoOuNUG3nXsA"> HYBRID K-NEAREST NEIGHBOUR AND DISCRIMINANT ANALYSIS FOR PREDICTING MEDICAL DIAGNOSIS IN DECISION SUPPORT SYSTEM </a>
 
-# Analysis of Accident Victims Evaluation by Four Different Hospitals
+## V. Analysis of Accident Victims Evaluation by Four Different Hospitals
 
 ## Table of Contents
 
@@ -324,14 +324,19 @@ It also contains the count of True Positives(TP), True Negatives(TN), False Posi
 3. Probability of secondary amputation being required
 4. Final Diagnosis
 
-### 4. Data Transformation
+### 4. Tools Used
+
+1. Excel
+2. Minitab
+
+### 5. Data Transformation
 
 1. To make things simpler, the following transformations were made on the data:
 2. Amputation Probability was considered as the Sum of Probability of Primary Amputation and Secondary Amputation. 
 3. The Salvaging and Amputation Prediction of the Final Diagnosis given in terms of probabilities were converted to binary in nature by predicting the limbs to be salvaged for any Salvage Probability above a certain Cut Off Value. 
 4. The 6 cut off values chosen were - 0.92, 0.88, 0.87, 0.80, 0.70, 0.65
 
-### 5. Analysis
+### 6. Analysis
 
 Using the TP, TN, FP & FN, the sensitivity of TP% was plotted against the specificity of TN% for the descending order of probability of salvage. This is shown in the excel sheets in the below links, which contain the data for each of the hospital, their cut off based calculations of TP, TN, FP & FN, as well as the graphs of TP% against TN%
 
@@ -343,13 +348,13 @@ Using the TP, TN, FP & FN, the sensitivity of TP% was plotted against the specif
 
 <a href = "https://docs.google.com/spreadsheets/d/1W5PAX9JZYQ1Z_7M6f3aGBqwCX-2Y2K24/edit#gid=732017591"> 4. OTA Hospital Data with TP% vs TN% graph </a>
 
-### 6. Insights
+### 7. Insights
 
 1. Results showed that the Ganga hospital was better than the other hospitals in the evaluation at salvaging or amputating limbs. 
 2. LSI is second best at evaluation, going by the graphs, behind Mess and OTA only in the 0.70 cut off. 
 3. Mess is better OTA in 4 out of the 6 cut offs under consideration, behind only in the 0.92 and 0.70 cut offs.
 
-### 7. Conclusions
+### 8. Conclusions
 
 Final Rankings of the 4 Hospitals at evaluation:
 
