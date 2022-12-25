@@ -217,4 +217,55 @@ Several records in the data had fields with null values which needed to be made 
 
 The steady increase in Vaccinations combined with a similar decrease in Covid-19 Infections & Deaths suggests that the vaccines are indeed proving effective in countering the Covid-19 Pandemic.
 
+## IV. Final Year Project 2018-2019 - Application of Discriminant Analysis for Predicting Medical Diagnosis in Decision Support System 
+
+## Table of Contents
+
+1. Project Objective
+2. Data Source
+3. Data Used
+4. Tools Used
+5. Analysis
+6. Conclusion
+7. Note
+
+1. Project Objective
+To test the Prediction Accuracy of various Hybrid versions of the KNN, LDA & QDA algorithms and compare them with their original versions
+2. Data Source
+UCI Repository
+3. Data Used
+In this project, 20 clinical attributes for Diabetes, 9 clinical attributes for Cancer and 23 for Herbal Plants were used to predict their medical diagnosis. 
+4. Tools Used
+MATLAB
+5. Analysis
+Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis algorithms (listed below) were applied
+1. KNN
+2. LDA
+3. QDA
+4. KNN LDA
+5. KNN QDA
+6. FUZZY KNN
+7. FUZZY KNN LDA
+8. FUZZY KNN QDA
+9. ROUGH FUZZY KNN
+10. ROUGH FUZZY KNN LDA
+11. ROUGH FUZZY KNN QDA
+12. CONDENSED KNN
+13. CONDENSED KNN LDA
+14. CONDENSED KNN QDA
+15. CONSTRAINED KNN
+16. CONSTRAINED KNN LDA
+17. CONSTRAINED KNN QDA
+Predictions using each of the above were carried out and their accuracy was also computed. In the below link, you can find the MATLAB code for some of the algorithms as well as the code computing their accuracies
+<a href = "https://drive.google.com/drive/u/1/folders/1tp8c3_aBg_hUBim1z_FULS77ZPsfItv5"> KNN, Discriminant Analysis and their Hybrids in MATLAB </a>
+6. Conclusions
+•	For all the three data sets used above, Diabetes, Cancer and Herbal Plants, the KNN LDA, KNN QDA, Condensed KNN LDA, Condensed KNN QDA, Fuzzy KNN LDA, Fuzzy KNN QDA, Constrained Fuzzy KNN LDA, Constrained Fuzzy KNN QDA, Rough Fuzzy KNN LDA and Rough Fuzzy KNN QDA showed a better performance than KNN, Condensed KNN, Constrained KNN and Rough Fuzzy KNN. 
+•	From the cancer data set it is found that the accuracy performance of LDA and QDA with respect to Condensed, Fuzzy, Constrained Fuzzy and Rough Fuzzy were high. Also accuracy of QDA on Condensed Fuzzy, Constrained Fuzzy, and Rough Fuzzy over whelmed the accuracy with respect to LDA and hence can be concluded that the use of KNN QDA on Condensed Fuzzy, Constrained Fuzzy and Rough Fuzzy is preferable.  
+•	The prediction for diabetes using various algorithms was around 77% and can be improved by using few boosting techniques or by increasing the number of samples. So the computer based decision support systems can be used based on Fuzzy KNN- LDA, Fuzzy KNN- QDA, KNN-LDA and KNN -QDA so as to reduce cost and errors in clinical trials. 
+•	In the herbal plants data set, we find the LDA to be more effective than QDA with respect to ordinary KNN as well as with respect to Constrained Fuzzy. With respect to Fuzzy, Rough Fuzzy and Condensed Fuzzy, LDA and QDA are equally effective with higher accuracy in Rough Fuzzy than in Fuzzy and Condensed Fuzzy.
+7. Note
+I had prepared the below slides for my Final Year Project Review in MSc Mathematics. These slides contain the detailed workings of each of the algorithms as well as their accuracies
+<a href = "https://docs.google.com/presentation/d/10_1gMlXmtsN2yXt4Mf8IGrdLbQecxlNh/edit#slide=id.p1"> MSc Mathematics Final Year Project Review </a>
+Further background behind this project is given in the thesis in the PDF in the link below which I submitted for my Degree in MSc Mathematics
+<a href = "https://drive.google.com/drive/u/1/folders/1omvJKv7-dhtRXLOzdkoWOoOuNUG3nXsA"> HYBRID K-NEAREST NEIGHBOUR AND DISCRIMINANT ANALYSIS FOR PREDICTING MEDICAL DIAGNOSIS IN DECISION SUPPORT SYSTEM </a>
 
