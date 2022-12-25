@@ -288,3 +288,72 @@ Further background behind this project is given in the thesis in the PDF in the 
 
 <a href = "https://drive.google.com/drive/u/1/folders/1omvJKv7-dhtRXLOzdkoWOoOuNUG3nXsA"> HYBRID K-NEAREST NEIGHBOUR AND DISCRIMINANT ANALYSIS FOR PREDICTING MEDICAL DIAGNOSIS IN DECISION SUPPORT SYSTEM </a>
 
+# Analysis of Accident Victims Evaluation by Four Different Hospitals
+
+## Table of Contents
+
+### 1. Project Objective
+
+To compare the diagnosis by 4 different hospitals of the limbs of accident victims as to whether they can be salvaged or amputated
+
+### 2. Data Source
+
+I was provided an excel sheet by the doctors of 4 leading hospitals - Mess, Ganga, LSI, OTA. I have combined the data from all 4 hospitals in the below Excel sheet:
+<a href = "https://docs.google.com/spreadsheets/d/1YYBLJnrLSgD7jOrTILs2tOJVsBsBlw-4/edit#gid=1215070420"> Original Hospital Data from Ganga, LSI, Mess and OTA Hospitals </a>
+
+The excel sheet in the following link contains 225 observations of accident victims from each of the 4 mentioned hospitals with the following data:
+
+1. Age
+2. Gender
+3. Probability of salvaging the limbs
+4. Probability of primary amputation being required
+5. Probability of secondary amputation being required
+6. Final Diagnosis
+
+It also contains the count of True Positives(TP), True Negatives(TN), False Positives(FP) and False Negative(FN) cases for each hospital. 
+
+1. True Positives(TP) - The patient's limbs were correctly evaluated as salvaged.
+2. True Negatives(TN) - The patient's limbs were correctly evaluated as amputated.
+3. False Positives(FP) - The patient's limbs were incorrectly evaluated as salvaged.
+4. False Negatives(FN) - The patient's limbs were incorrectly evaluated as amputated.
+
+### 3. Data Used
+
+1. Probability of salvaging the limbs
+2. Probability of primary amputation being required
+3. Probability of secondary amputation being required
+4. Final Diagnosis
+
+### 4. Data Transformation
+
+1. To make things simpler, the following transformations were made on the data:
+2. Amputation Probability was considered as the Sum of Probability of Primary Amputation and Secondary Amputation. 
+3. The Salvaging and Amputation Prediction of the Final Diagnosis given in terms of probabilities were converted to binary in nature by predicting the limbs to be salvaged for any Salvage Probability above a certain Cut Off Value. 
+4. The 6 cut off values chosen were - 0.92, 0.88, 0.87, 0.80, 0.70, 0.65
+
+### 5. Analysis
+
+Using the TP, TN, FP & FN, the sensitivity of TP% was plotted against the specificity of TN% for the descending order of probability of salvage. This is shown in the excel sheets in the below links, which contain the data for each of the hospital, their cut off based calculations of TP, TN, FP & FN, as well as the graphs of TP% against TN%
+
+<a href = "https://docs.google.com/spreadsheets/d/1FECMYcwfROZO9Z7ZkaLQ72NTfxGK1Epv/edit#gid=2045379082"> 1. Ganga Hospital Data with TP% vs TN% graph </a>
+
+<a href = "https://docs.google.com/spreadsheets/d/1XdCNY0ITZA0dcgwjxdwTEhts3OEHQHyc/edit#gid=218284680"> 2. LSI Hospital Data with TP% vs TN% graph </a>
+
+<a href = "https://docs.google.com/spreadsheets/d/1cmlc-cxMMyVqbkoZ0E6lXR6e3u7Y8UON/edit#gid=1077851932"> 3. Mess Hospital Data with TP% vs TN% graph </a>
+
+<a href = "https://docs.google.com/spreadsheets/d/1W5PAX9JZYQ1Z_7M6f3aGBqwCX-2Y2K24/edit#gid=732017591"> 4. OTA Hospital Data with TP% vs TN% graph </a>
+
+### 6. Insights
+
+1. Results showed that the Ganga hospital was better than the other hospitals in the evaluation at salvaging or amputating limbs. 
+2. LSI is second best at evaluation, going by the graphs, behind Mess and OTA only in the 0.70 cut off. 
+3. Mess is better OTA in 4 out of the 6 cut offs under consideration, behind only in the 0.92 and 0.70 cut offs.
+
+### 7. Conclusions
+
+Final Rankings of the 4 Hospitals at evaluation:
+
+1. Ganga Hospital
+2. LSI Hospital
+3. Mess Hospital
+4. OTA Hospital
