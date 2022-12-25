@@ -340,10 +340,11 @@ It also contains the count of True Positives(TP), True Negatives(TN), False Posi
 
 ### 5. Data Transformation
 
-1. To make things simpler, the following transformations were made on the data:
-2. Amputation Probability was considered as the Sum of Probability of Primary Amputation and Secondary Amputation. 
-3. The Salvaging and Amputation Prediction of the Final Diagnosis given in terms of probabilities were converted to binary in nature by predicting the limbs to be salvaged for any Salvage Probability above a certain Cut Off Value. 
-4. The 6 cut off values chosen were - 0.92, 0.88, 0.87, 0.80, 0.70, 0.65
+To make things simpler, the following transformations were made on the data:
+
+1. Amputation Probability was considered as the Sum of Probability of Primary Amputation and Secondary Amputation. 
+2. The Salvaging and Amputation Prediction of the Final Diagnosis given in terms of probabilities were converted to binary in nature by predicting the limbs to be salvaged for any Salvage Probability above a certain Cut Off Value. 
+3. The 6 cut off values chosen were - 0.92, 0.88, 0.87, 0.80, 0.70, 0.65
 
 ### 6. Analysis
 
