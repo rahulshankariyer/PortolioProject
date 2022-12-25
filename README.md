@@ -249,23 +249,23 @@ MATLAB
 
 Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis algorithms (listed below) were applied
 
-(i) KNN
-(ii) LDA
-(iii) QDA
-(iv) KNN LDA
-(v) KNN QDA
-(vi) FUZZY KNN
-(vii) FUZZY KNN LDA
-(viii) FUZZY KNN QDA
-(ix) ROUGH FUZZY KNN
-(x) ROUGH FUZZY KNN LDA
-(xi) ROUGH FUZZY KNN QDA
-(xii) CONDENSED KNN
-(xiii) CONDENSED KNN LDA
-(xiv) CONDENSED KNN QDA
-(xv) CONSTRAINED KNN
-(xvi) CONSTRAINED KNN LDA
-(xvii) CONSTRAINED KNN QDA
+1. KNN
+2. LDA
+3. QDA
+4. KNN LDA
+5. KNN QDA
+6. FUZZY KNN
+7. FUZZY KNN LDA
+8. FUZZY KNN QDA
+9. ROUGH FUZZY KNN
+10. ROUGH FUZZY KNN LDA
+11. ROUGH FUZZY KNN QDA
+12. CONDENSED KNN
+13. CONDENSED KNN LDA
+14. CONDENSED KNN QDA
+15. CONSTRAINED KNN
+16. CONSTRAINED KNN LDA
+17. CONSTRAINED KNN QDA
 
 Predictions using each of the above were crried out and their accuracy was also computed. In the below link, you can find the MATLAB code for some of the algorithms as well as the code computing their accuracies
 <a href = "https://drive.google.com/drive/u/1/folders/1tp8c3_aBg_hUBim1z_FULS77ZPsfItv5"> KNN, Discriminant Analysis and their Hybrids in MATLAB </a>
