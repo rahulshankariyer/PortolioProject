@@ -303,7 +303,7 @@ Further background behind this project is given in the thesis in the PDF in the 
 
 ### 1. Project Objective
 
-To compare the diagnosis by 4 different hospitals of the limbs of accident victims as to whether they can be salvaged or amputated
+To compare the diagnosis by 4 different Hospitals of the Limbs of Accident Victims as to whether they can be Salvaged or Amputated.
 
 ### 2. Data Source
 
@@ -314,23 +314,23 @@ The excel sheet in the following link contains 225 observations of accident vict
 
 1. Age
 2. Gender
-3. Probability of salvaging the limbs
-4. Probability of primary amputation being required
-5. Probability of secondary amputation being required
+3. Probability of Salvaging the Limbs
+4. Probability of Primary Amputation Being Required
+5. Probability of Secondary Amputation Being Required
 6. Final Diagnosis
 
 It also contains the count of True Positives(TP), True Negatives(TN), False Positives(FP) and False Negative(FN) cases for each hospital. 
 
-1. True Positives(TP) - The patient's limbs were correctly evaluated as salvaged.
-2. True Negatives(TN) - The patient's limbs were correctly evaluated as amputated.
-3. False Positives(FP) - The patient's limbs were incorrectly evaluated as salvaged.
-4. False Negatives(FN) - The patient's limbs were incorrectly evaluated as amputated.
+1. True Positives(TP) - The patient's limbs were Correctly evaluated as Salvaged.
+2. True Negatives(TN) - The patient's limbs were Correctly evaluated as Amputated.
+3. False Positives(FP) - The patient's limbs were Incorrectly evaluated as Salvaged.
+4. False Negatives(FN) - The patient's limbs were Incorrectly evaluated as Amputated.
 
 ### 3. Data Used
 
-1. Probability of salvaging the limbs
-2. Probability of primary amputation being required
-3. Probability of secondary amputation being required
+1. Probability of Salvaging the Limbs
+2. Probability of Primary Amputation Being Required
+3. Probability of Secondary Amputation Being Required
 4. Final Diagnosis
 
 ### 4. Tools Used
@@ -343,8 +343,14 @@ It also contains the count of True Positives(TP), True Negatives(TN), False Posi
 To make things simpler, the following transformations were made on the data:
 
 1. Amputation Probability was considered as the Sum of Probability of Primary Amputation and Secondary Amputation. 
-2. The Salvaging and Amputation Prediction of the Final Diagnosis given in terms of probabilities were converted to binary in nature by predicting the limbs to be salvaged for any Salvage Probability above a certain Cut Off Value. 
-3. The 6 cut off values chosen were - 0.92, 0.88, 0.87, 0.80, 0.70, 0.65
+2. The Salvaging and Amputation Prediction of the Final Diagnosis given in terms of probabilities were converted to binary nature by predicting the limbs to be salvaged for any Salvage Probability above a certain Cut Off Value. 
+3. The 6 cut off values chosen were - 
+        (i) 0.92
+        (ii) 0.88
+        (iii) 0.87
+        (iv) 0.80
+        (v) 0.70
+        (vi) 0.65
 
 ### 6. Analysis
 
