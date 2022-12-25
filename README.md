@@ -360,7 +360,7 @@ Using the TP, TN, FP & FN, the sensitivity of TP% was plotted against the specif
 
 ### 7. Insights
 
-1. Results showed that the Ganga hospital was better than the other hospitals in the evaluation at salvaging or amputating limbs. 
+1. Ganga hospital was better than the other hospitals in the evaluation at salvaging or amputating limbs. 
 2. LSI is second best at evaluation, going by the graphs, behind Mess and OTA only in the 0.70 cut off. 
 3. Mess is better OTA in 4 out of the 6 cut offs under consideration, behind only in the 0.92 and 0.70 cut offs.
 
