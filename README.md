@@ -268,6 +268,7 @@ Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis alg
 17. CONSTRAINED KNN QDA
 
 Predictions using each of the above were crried out and their accuracy was also computed. In the below link, you can find the MATLAB code for some of the algorithms as well as the code computing their accuracies
+
 <a href = "https://drive.google.com/drive/u/1/folders/1tp8c3_aBg_hUBim1z_FULS77ZPsfItv5"> KNN, Discriminant Analysis and their Hybrids in MATLAB </a>
 
 ### 6. Conclusions
