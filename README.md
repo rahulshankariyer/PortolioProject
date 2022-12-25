@@ -292,6 +292,15 @@ Further background behind this project is given in the thesis in the PDF in the 
 
 ## Table of Contents
 
+1. Project Objective
+2. Data Source
+3. Data Used
+4. Tools Used
+5. Data Transformation
+6. Analysis
+7. Insights
+8. Conclusion
+
 ### 1. Project Objective
 
 To compare the diagnosis by 4 different hospitals of the limbs of accident victims as to whether they can be salvaged or amputated
@@ -354,7 +363,7 @@ Using the TP, TN, FP & FN, the sensitivity of TP% was plotted against the specif
 2. LSI is second best at evaluation, going by the graphs, behind Mess and OTA only in the 0.70 cut off. 
 3. Mess is better OTA in 4 out of the 6 cut offs under consideration, behind only in the 0.92 and 0.70 cut offs.
 
-### 8. Conclusions
+### 8. Conclusion
 
 Final Rankings of the 4 Hospitals at evaluation:
 
