@@ -251,11 +251,11 @@ In this project, the following datasets were used for Prediction of Medical Diag
 
 #### a. Diabetes Dataset
 
-The Diabetes Dataset contains 20 Clinical Attributes along with a binary attribute that denotes whether the patient has Diabetes or not, which is based on the 20 Clinical Attributes.
+The Diabetes Dataset contains a binary attribute that denotes whether the patient has Diabetes or not, which is based on 20 Clinical Attributes.
 
 #### b. Cancer Dataset
 
-The Cancer Dataset contains 9 Clinical Attributes along with a binary attribute that denotes whether the patient has Cancer or not, which is based on the 9 Clinical Attributes.
+The Cancer Dataset contains a binary attribute that denotes whether the patient has Cancer or not, which is based on 9 Clinical Attributes.
 
 #### c. Herbal Plants Dataset
 
