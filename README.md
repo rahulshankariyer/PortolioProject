@@ -265,7 +265,7 @@ The Herbal Plants Dataset contains 23 Drug Properties along with an attribute th
 
 #### a. Diabetes Dataset
 
-The Diabetes Dataset was divided into 10 different partitions where one partition is known as a Testing Dataset and the other 9 partitions are called Training Datasets. 
+The Diabetes Dataset was divided into 10 different partitions where one partition is known as a Training Dataset and the other 9 partitions are called Testing Datasets. 
 
 #### b. Cancer Dataset
 
@@ -273,7 +273,7 @@ The Cancer Dataset was divided in the same manner as the Diabetes Dataset and th
 
 #### c. Herbal Plants Dataset
 
-The original dataset contained information for 143 Herbal Plants, so it was divided into two partitions where one partition containing the information of 71 Herbal Plants was taken as the Testing Dataset and the other partition containing the information of the other 72 Herbal Plants was taken as Training Dataset.
+The original dataset contained information for 143 Herbal Plants, so it was divided into two partitions where one partition containing the information of 71 Herbal Plants was taken as the Training Dataset and the other partition containing the information of the other 72 Herbal Plants was taken as Testing Dataset.
 
 ### 6. Tool Used
 
@@ -281,7 +281,7 @@ MATLAB
 
 ### 7. Analysis
 
-Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis algorithms (listed below) were applied on our Training Datasets
+Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis algorithms (listed below) were applied on our Testing Datasets
 
 1. KNN
 2. LDA
