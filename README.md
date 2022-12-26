@@ -327,11 +327,41 @@ Predictions using each of the above were crried out and their accuracy was also 
 
 | Algorithm | Correctly Classified | Incorrectly Classified | Accuracy % |
 | --- | --- | --- | --- |
+| KNN | 96 | 4 | 96% |
+| KNN LDA | 97 | 3 | 97% |
+| KNN QDA | 97 | 3 | 97% |
+| Fuzzy KNN | 97 | 3 | 97% |
+| Fuzzy KNN LDA | 99 | 1 | 99% |
+| Fuzzy KNN QDA | 99 | 1 | 99% |
+| Rough Fuzzy KNN | 76 | 24 | 76% |
+| Rough Fuzzy KNN LDA | 77 | 23 | 77% |
+| Rough Fuzzy KNN QDA | 77 | 23 | 77% |
+| Condensed KNN | 90 | 10 | 90% |
+| Condensed KNN LDA | 92 | 8 | 92% |
+| Condensed KNN QDA | 99 | 1 | 99% |
+| Constrained KNN | 90 | 10 | 90% |
+| Constrained KNN LDA | 92 | 8 | 92% |
+| Constrained KNN QDA | 99 | 1 | 99% |
 
 #### Accuracy On Herbal Plants Dataset
 
 | Algorithm | Correctly Classified | Incorrectly Classified | Accuracy % |
 | --- | --- | --- | --- |
+| KNN | 54 | 18 | 75% |
+| KNN LDA | 69 | 3 | 95.83% |
+| KNN QDA | 62 | 10 | 86.11% |
+| Fuzzy KNN | 54 | 18 | 75% |
+| Fuzzy KNN LDA | 68 | 4 | 94.4% |
+| Fuzzy KNN QDA | 68 | 4 | 94.4% |
+| Rough Fuzzy KNN | 54 | 18 | 75% |
+| Rough Fuzzy KNN LDA | 69 | 3 | 95.83% |
+| Rough Fuzzy KNN QDA | 69 | 3 | 95.83% |
+| Condensed KNN | 54 | 18 | 75% |
+| Condensed KNN LDA | 68 | 4 | 94.4% |
+| Condensed KNN QDA | 68 | 4 | 94.4% |
+| Constrained KNN | 54 | 18 | 75% |
+| Constrained KNN LDA | 69 | 3 | 95.83% |
+| Constrained KNN QDA | 62 | 10 | 86.11% |
 
 In the below link, you can find the MATLAB code for some of the algorithms as well as the code computing their accuracies
 
