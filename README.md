@@ -205,7 +205,7 @@ Several records in the data had fields with null values which needed to be made 
 
 1. Using SQL Server Management Studio the data of Covid Vaccinations vs Cases & Deaths by date was extracted. 
 2. The queries used to extract the data are available in the <a href = "https://github.com/rahulshankariyer/PortolioProject/blob/main/Covid-19/Vaccinations%20vs%20Covid%20Cases%20%26%20Deaths.sql"> Vaccinations vs Covid Cases & Deaths.sql </a> file 
-3. Using the data extracted in Step 2, the following analysis was performed in Jupyter Notebooks - <a href = "https://github.com/rahulshankariyer/PortolioProject/blob/main/Covid-19/Covid%2019%20Vaccinations%20vs%20Cases%20%26%20Deaths.ipynb"> Covid Vaccinations, Cases & Deaths With Time </a>
+3. Using the data extracted in Step 2, the following analysis was performed in Jupyter Notebooks - <a href = "https://github.com/rahulshankariyer/PortolioProject/blob/main/Covid%20Vaccination%20Effect%20on%20Cases%20%26%20Deaths/Covid%2019%20Vaccinations%20vs%20Cases%20%26%20Deaths.ipynb"> Covid Vaccinations, Cases & Deaths With Time </a>
 
 ### 6. Insights
 
