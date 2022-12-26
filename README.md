@@ -339,7 +339,7 @@ Further background behind this project is given in the thesis in the PDF in the 
 
 ### 1. Project Objective
 
-To compare the diagnosis by 4 different Hospitals of the Limbs of Accident Victims as to whether they can be Salvaged or Amputated.
+To compare the diagnosis by 4 different Hospitals of the Limbs of Accident Victims as to whether they can be Salvaged or have to be Amputated.
 
 ### 2. Data Source
 
