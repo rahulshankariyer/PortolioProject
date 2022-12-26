@@ -273,7 +273,7 @@ The Cancer Dataset was divided in the same manner as the Diabetes Dataset and th
 
 #### c. Herbal Plants Dataset
 
-The original dataset contained information for 143 Herbal Plants, so it was divided into two partitions where one partition containing the information of 71 Herbal Plants was taken as the Training Dataset and the other partition containing the information of the other 72 Herbal Plants was taken as Training Dataset.
+The original dataset contained information for 143 Herbal Plants, so it was divided into two partitions where one partition containing the information of 71 Herbal Plants was taken as the Testing Dataset and the other partition containing the information of the other 72 Herbal Plants was taken as Training Dataset.
 
 ### 6. Tool Used
 
