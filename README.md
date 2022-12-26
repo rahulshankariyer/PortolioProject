@@ -209,9 +209,9 @@ Several records in the data had fields with null values which needed to be made 
 
 ### 6. Insights
 
-1. The number of people getting vaccinated steadily increased each day
-2. The number of people getting infected by Covid-19 steadily decreased each day
-3. The number of people getting dying from Covid-19 steadily decreased each day
+1. The number of people getting vaccinated steadily increased with time
+2. The number of people getting infected by Covid-19 steadily decreased with time
+3. The number of people getting dying from Covid-19 steadily decreased with time
 
 ### 7. Conclusion
 
