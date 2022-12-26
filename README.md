@@ -199,7 +199,7 @@ The data used for the purpose of this analysis were:
 2. Postivity Rates
 3. Death Rates
 
-Several records in the data had fields with null values which needed to be made into '0' for performing various mathematical calculations on them. So those fields were changed from null to '0'.
+Several records in the data had fields with null values which needed to be made into '0' for performing various mathematical calculations on them. So those fields were changed from null to '0'. Most of these null values were during the period prior to roll out of vaccines.
 
 ### 5. Analysis
 
