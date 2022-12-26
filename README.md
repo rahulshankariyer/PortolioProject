@@ -217,17 +217,19 @@ Several records in the data had fields with null values which needed to be made 
 
 The steady increase in Vaccinations combined with a similar decrease in Covid-19 Infections & Deaths suggests that the vaccines are indeed proving effective in countering the Covid-19 Pandemic.
 
-## IV. Final Year Project 2018-2019 - Application of Discriminant Analysis for Predicting Medical Diagnosis in Decision Support System 
+## IV. Final Year Project 2018-2019 - Application of Discriminant Analysis for Predicting Medical Diagnosis of Cancer & Diabetes and Identification of Compounds in Herbal Plants 
 
 ## Table of Contents
 
 1. Project Objective
 2. Data Source
 3. Data Used
-4. Tools Used
-5. Analysis
-6. Conclusion
-7. Note
+4. About Each Dataset
+5. Data Transformations
+6. Tools Used
+7. Analysis
+8. Conclusion
+9. Note
 
 ### 1. Project Objective
 
@@ -249,11 +251,11 @@ In this project, the following datasets were used for Prediction of Medical Diag
 
 #### a. Diabetes Dataset
 
-The Diabetes Dataset contains 20 Clinical Attributes along with a binary attribute that denotes whether the patient has Diabetes or not.
+The Diabetes Dataset contains 20 Clinical Attributes along with a binary attribute that denotes whether the patient has Diabetes or not, which is based on the 20 Clinical Attributes.
 
 #### b. Cancer Dataset
 
-The Cancer Dataset contains 9 Clinical Attributes along with a binary attribute that denotes whether the patient has Cancer or not.
+The Cancer Dataset contains 9 Clinical Attributes along with a binary attribute that denotes whether the patient has Cancer or not, which is based on the 9 Clinical Attributes.
 
 #### c. Herbal Plants Dataset
 
@@ -261,15 +263,25 @@ The Herbal Plants Dataset contains 23 Drug Properties along with an attribute th
 
 ### 5. Data Transformations
 
+#### a. Diabetes Dataset
 
+The Diabetes Dataset was divided into 10 different partitions where one partition is known as a Testing Dataset and the other 9 partitions are called Training Datasets. 
 
-### 4. Tool Used
+#### b. Cancer Dataset
+
+The Cancer Dataset was divided in the same manner as the Diabetes Dataset and the classification followed the same procedure too. 
+
+#### c. Herbal Plants Dataset
+
+The original dataset contained information for 143 Herbal Plants, so it was divided into two partitions where one partition containing the information of 71 Herbal Plants was taken as the Training Dataset and the other partition containing the information of the other 72 Herbal Plants was taken as Training Dataset.
+
+### 6. Tool Used
 
 MATLAB
 
-### 5. Analysis
+### 7. Analysis
 
-Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis algorithms (listed below) were applied
+Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis algorithms (listed below) were applied on our Training Datasets
 
 1. KNN
 2. LDA
@@ -289,18 +301,20 @@ Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis alg
 16. CONSTRAINED KNN LDA
 17. CONSTRAINED KNN QDA
 
-Predictions using each of the above were crried out and their accuracy was also computed. In the below link, you can find the MATLAB code for some of the algorithms as well as the code computing their accuracies
+Predictions using each of the above were crried out and their accuracy was also computed. The accuracy is computed by comparing the predicted values with the actual values in the partitions taken as our Training Datasets.
+
+In the below link, you can find the MATLAB code for some of the algorithms as well as the code computing their accuracies
 
 <a href = "https://drive.google.com/drive/u/1/folders/1tp8c3_aBg_hUBim1z_FULS77ZPsfItv5"> KNN, Discriminant Analysis and their Hybrids in MATLAB </a>
 
-### 6. Conclusions
+### 8. Conclusions
 
 1. For all the three data sets used above, Diabetes, Cancer and Herbal Plants, the KNN LDA, KNN QDA, Condensed KNN LDA, Condensed KNN QDA, Fuzzy KNN LDA, Fuzzy KNN QDA, Constrained Fuzzy KNN LDA, Constrained Fuzzy KNN QDA, Rough Fuzzy KNN LDA and Rough Fuzzy KNN QDA showed a better performance than KNN, Condensed KNN, Constrained KNN and Rough Fuzzy KNN. 
 2. From the cancer data set it is found that the accuracy performance of LDA and QDA with respect to Condensed, Fuzzy, Constrained Fuzzy and Rough Fuzzy were high. Also accuracy of QDA on Condensed Fuzzy, Constrained Fuzzy, and Rough Fuzzy over whelmed the accuracy with respect to LDA and hence can be concluded that the use of KNN QDA on Condensed Fuzzy, Constrained Fuzzy and Rough Fuzzy is preferable.  
 3. The prediction for diabetes using various algorithms was around 77% and can be improved by using few boosting techniques or by increasing the number of samples. So the computer based decision support systems can be used based on Fuzzy KNN- LDA, Fuzzy KNN- QDA, KNN-LDA and KNN -QDA so as to reduce cost and errors in clinical trials. 
 4. In the herbal plants data set, we find the LDA to be more effective than QDA with respect to ordinary KNN as well as with respect to Constrained Fuzzy. With respect to Fuzzy, Rough Fuzzy and Condensed Fuzzy, LDA and QDA are equally effective with higher accuracy in Rough Fuzzy than in Fuzzy and Condensed Fuzzy.
 
-### 7. Note
+### 9. Note
 
 I had prepared the below slides for my Final Year Project Review in MSc Mathematics. These slides contain the detailed workings of each of the algorithms as well as their accuracies
 
