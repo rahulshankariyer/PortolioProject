@@ -303,6 +303,36 @@ Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis alg
 
 Predictions using each of the above were crried out and their accuracy was also computed. The accuracy is computed by comparing the predicted values with the actual values in the partitions taken as our Training Datasets.
 
+#### Accuracy On Diabetes Dataset
+
+| Algorithm | Correctly Classified | Incorrectly Classified | Accuracy % |
+| --- | --- | --- | --- |
+| KNN | 76 | 24 | 76% |
+| KNN LDA | 77 | 23 | 77% |
+| KNN QDA | 77 | 23 | 77% |
+| Fuzzy KNN | 76 | 24 | 76% |
+| Fuzzy KNN LDA | 77 | 23 | 77% |
+| Fuzzy KNN QDA | 77 | 23 | 77% |
+| Rough Fuzzy KNN | 76 | 24 | 76% |
+| Rough Fuzzy KNN LDA | 77 | 23 | 77% |
+| Rough Fuzzy KNN QDA | 77 | 23 | 77% |
+| Condensed KNN | 76 | 24 | 76% |
+| Condensed KNN LDA | 77 | 23 | 77% |
+| Condensed KNN QDA | 77 | 23 | 77% |
+| Constrained KNN | 74 | 26 | 74% |
+| Constrained KNN LDA | 77 | 23 | 77% |
+| Constrained KNN QDA | 76 | 24 | 76% |
+
+#### Accuracy On Cancer Dataset
+
+| Algorithm | Correctly Classified | Incorrectly Classified | Accuracy % |
+| --- | --- | --- | --- |
+
+#### Accuracy On Herbal Plants Dataset
+
+| Algorithm | Correctly Classified | Incorrectly Classified | Accuracy % |
+| --- | --- | --- | --- |
+
 In the below link, you can find the MATLAB code for some of the algorithms as well as the code computing their accuracies
 
 <a href = "https://drive.google.com/drive/u/1/folders/1tp8c3_aBg_hUBim1z_FULS77ZPsfItv5"> KNN, Discriminant Analysis and their Hybrids in MATLAB </a>
