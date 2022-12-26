@@ -239,7 +239,29 @@ UCI Repository
 
 ### 3. Data Used
 
-In this project, 20 clinical attributes for Diabetes, 9 clinical attributes for Cancer and 23 for Herbal Plants were used to predict their medical diagnosis.
+In this project, the following datasets were used for Prediction of Medical Diagnosis:
+
+1. Diabetes Dataset
+2. Cancer Dataset
+3. Herbal Plants Dataset
+
+### 4. About Each Dataset
+
+#### a. Diabetes Dataset
+
+The Diabetes Dataset contains 20 Clinical Attributes along with a binary attribute that denotes whether the patient has Diabetes or not.
+
+#### b. Cancer Dataset
+
+The Cancer Dataset contains 9 Clinical Attributes along with a binary attribute that denotes whether the patient has Cancer or not.
+
+#### c. Herbal Plants Dataset
+
+The Herbal Plants Dataset contains 23 Drug Properties along with an attribute that denotes which Chemical Compound is available in the plant. The Diabetes & Cancer Datasets serve as the bench mark for this classification.
+
+### 5. Data Transformations
+
+
 
 ### 4. Tool Used
 
