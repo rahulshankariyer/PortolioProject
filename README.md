@@ -367,7 +367,7 @@ In the below link, you can find the MATLAB code for some of the algorithms as we
 
 <a href = "https://drive.google.com/drive/u/1/folders/1tp8c3_aBg_hUBim1z_FULS77ZPsfItv5"> KNN, Discriminant Analysis and their Hybrids in MATLAB </a>
 
-### 8. Conclusions
+### 8. Conclusion
 
 For all the three data sets used above, the Hybrid Algorithms showed a better performance their respective Original Algorithms.
 
@@ -377,7 +377,7 @@ I had prepared the below slides for my Final Year Project Review in MSc Mathemat
 
 <a href = "https://docs.google.com/presentation/d/10_1gMlXmtsN2yXt4Mf8IGrdLbQecxlNh/edit#slide=id.p1"> MSc Mathematics Final Year Project Review </a>
 
-Further background behind this project is given in the thesis in the PDF in the link below which I submitted for my Degree in MSc Mathematics
+Further background behind this project is given in the thesis below which I submitted for my Degree in MSc Mathematics in PDF format.
 
 <a href = "https://drive.google.com/drive/u/1/folders/1omvJKv7-dhtRXLOzdkoWOoOuNUG3nXsA"> HYBRID K-NEAREST NEIGHBOUR AND DISCRIMINANT ANALYSIS FOR PREDICTING MEDICAL DIAGNOSIS IN DECISION SUPPORT SYSTEM </a>
 
