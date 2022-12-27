@@ -25,7 +25,7 @@ The data chosen for this analysis was for the calendar year 2021.
 
 ### 3. Tools Used
 
-1. SQL 
+1. SQL BigQuery
 2. Tableau 
 3. R Programming
 
@@ -279,9 +279,10 @@ The Cancer Dataset was divided in the same manner as the Diabetes Dataset and th
 
 The original dataset contained information for 143 Herbal Plants, so it was divided into two partitions where one partition containing the information of 71 Herbal Plants was taken as the Training Dataset and the other partition containing the information of the other 72 Herbal Plants was taken as Testing Dataset.
 
-### 6. Tool Used
+### 6. Tools Used
 
-MATLAB
+1. Excel
+2. MATLAB
 
 ### 7. Analysis
 
