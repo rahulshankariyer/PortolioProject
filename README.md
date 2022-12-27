@@ -190,6 +190,7 @@ For this purpose, a Covid-19 dataset from the website <a href = "https://ourworl
 1. Excel
 2. Microsoft SQL Server Management Studio
 3. Tableau
+4. Python
 
 ### 4. Data Transformations
 
@@ -205,17 +206,20 @@ Several records in the data had fields with null values which needed to be made 
 
 1. Using SQL Server Management Studio the data of Covid Vaccinations vs Cases & Deaths by date was extracted. 
 2. The queries used to extract the data are available in the <a href = "https://github.com/rahulshankariyer/PortolioProject/blob/main/Covid%20Vaccination%20Effect%20on%20Cases%20%26%20Deaths/Vaccinations%20vs%20Covid%20Cases%20%26%20Deaths.sql"> Vaccinations vs Covid Cases & Deaths.sql </a> file 
-3. Using the data extracted in Step 2, the following analysis was performed in Jupyter Notebooks - <a href = "https://github.com/rahulshankariyer/PortolioProject/blob/main/Covid%20Vaccination%20Effect%20on%20Cases%20%26%20Deaths/Covid%2019%20Vaccinations%20vs%20Cases%20%26%20Deaths.ipynb"> Covid Vaccinations, Cases & Deaths With Time </a>
+3. Using the data extracted in Step 2, the following analysis was performed in Jupyter Notebooks - <a href = "https://github.com/rahulshankariyer/PortolioProject/blob/main/Covid%20Vaccination%20Effect%20on%20Cases%20%26%20Deaths/Covid%2019%20Vaccinations%20vs%20Cases%20%26%20Deaths.ipynb"> Covid Vaccinations, Cases & Deaths With Time (Python) </a>
+4. For a consolidated graph of the Dates against Vaccinations, Cases & Deaths, please refer to the following link - <a href = "https://public.tableau.com/app/profile/rahul5702/viz/CovidVaccination-EffectOnCasesDeaths/Sheet1#1"> Covid Vaccinations, Cases & Deaths With Time (Tableau) </a>
 
 ### 6. Insights
 
-1. The number of people getting vaccinated steadily increased with time
-2. The number of people getting infected by Covid-19 steadily decreased with time
-3. The number of people getting dying from Covid-19 steadily decreased with time
+1. The spike in Covid-19 Vaccinations during the Summer of 2021 was followed by a decrease in the number of Cases & Deaths
+2. There was again a spike in Cases & Deaths in the Winter of 2021-2022 inspite of Vaccinations also spiking again
+3. The number of Vaccinations, Cases & Deaths all decreased consistently throughout the year of 2022
 
 ### 7. Conclusion
 
-The steady increase in Vaccinations combined with a similar decrease in Covid-19 Infections & Deaths suggests that the vaccines are indeed proving effective in countering the Covid-19 Pandemic.
+1. The effect of the Vaccination was mild to negligible on Covid-19 Infections, ie, the spread of the disease
+2. The Vaccination had a moderate effect on Deaths, ie, Covid-19 was milder.
+3. It was the big spike in Infections in December 2021 that enabled herd immunity. This led to steep decline in new cases & deaths
 
 ## IV. Final Year Project 2018-2019 - Application of Discriminant Analysis for Predicting Medical Diagnosis of Cancer & Diabetes and Identification of Compounds in Herbal Plants 
 
