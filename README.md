@@ -211,7 +211,7 @@ Several records in the data had fields with null values which needed to be made 
 ### 6. Insights
 
 1. The spike in Covid-19 Vaccinations during the Summer of 2021 was followed by a decrease in the number of Cases & Deaths
-2. There was again a spike in Cases & Deaths in the Winter of 2021-2022 inspite of Vaccinations also spiking again
+2. There was a spike in Cases & Deaths in the Winter of 2021-2022 inspite of Vaccinations also spiking again
 3. The number of Vaccinations, Cases & Deaths all decreased consistently throughout the year of 2022
 
 ### 7. Conclusion
