@@ -152,11 +152,11 @@ Several records in the data had fields with null values which needed to be made 
 From the above data, the following insights were gathered:
 
 1. USA had a Covid Positive Rate of 10.77% while the Rest of the World had 12.94%, ie, USA conducted 9.28 Tests Per Case while the Rest of the World conducted 7.73 Tests Per Case
-2. USA ranks #24 in the World in Testing % of the Population, with 270% of the population tested. The Rest of the World comes in with 183% in comparison.
+2. USA ranks #24 in the World in Testing % of the Population (from high to low), with 270% of the population tested. The Rest of the World comes in with 183% in comparison.
 3. Since the virus began to spread, USA has consistently tested a higher percentage of its population than the Rest of the World has from March 2020 through to July 2022.
-4. USA ranks #57 in the World in Covid % of the Population, with 29.07% contracting the virus. The Rest of the World comes in with 7% in comparison.
+4. USA ranks #57 in the World in Covid % of the Population (from high to low), with 29.07% contracting the virus. The Rest of the World comes in with 7% in comparison.
 5. Since the virus began to spread, the percentage of Covid Cases in the USA has consistently increased at a more rapid pace than that of the Rest of the World. 
-6. USA ranks #24 in the World in Death % among Covid Positive Cases, with 1.02% of them dying of the virus. The Rest of the World comes in with 1.03% in comparison.
+6. USA ranks #24 in the World in Death % among Covid Positive Cases (from high to low), with 1.02% of them dying of the virus. The Rest of the World comes in with 1.03% in comparison.
 7. Since the virus began to spread, the percentage of Covid Deaths in the USA has overall increased and decreased at a similar rate with that of the Rest of the world, sometimes going above and sometimes going below.
 
 ### 7. Conclusions
