@@ -94,6 +94,7 @@ The below visualizations were generated:
 5. Analysis
 6. Insights
 7. Conclusions
+8. Accuracy of the Insights & Conclusions
 
 ### 1. Project Objective
 
@@ -164,6 +165,14 @@ From the above data, the following insights were gathered:
 1. USA was more efficient than the Rest of the World in Testing & detecting Covid Positive Cases.
 2. USA couldn't control the spread of the virus very well, but they were able to control the death rate better than most other countries in the world.
 
+### 8. Accuracy of the Insights & Conclusions
+
+The accuracy is moderate for the following reasons:
+
+1. The reporting of data in many countries were not reliable. Eg. North Korea and China.
+2. The level of vaccinations varied from country to country.
+3. The efficacies of different vaccines were different.
+
 ## III. Covid Vaccination - Effect On Cases & Deaths
 
 ## Table of Contents
@@ -175,6 +184,7 @@ From the above data, the following insights were gathered:
 5. Analysis
 6. Insights
 7. Conclusions
+8. Accuracy of the Insights & Conclusions
 
 ### 1. Project Objective
 
@@ -219,6 +229,14 @@ Several records in the data had fields with null values which needed to be made 
 1. The effect of the Vaccination was mild to negligible on Covid-19 Infections, ie, the spread of the disease
 2. The Vaccination had a moderate effect on Deaths, ie, Covid-19 was milder.
 3. It was the big spike in Infections in December 2021 that enabled herd immunity. This led to steep decline in new cases & deaths
+
+### 8. Accuracy of the Insights & Conclusions
+
+The accuracy is moderate for the following reasons:
+
+1. The reporting of data in many countries were not reliable. Eg. North Korea and China.
+2. The level of vaccinations varied from country to country.
+3. The efficacies of different vaccines were different.
 
 ## IV. Final Year Project 2018-2019 - Application of Discriminant Analysis for Predicting Medical Diagnosis of Cancer & Diabetes and Identification of Compounds in Herbal Plants 
 
